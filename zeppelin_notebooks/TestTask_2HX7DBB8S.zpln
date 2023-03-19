@@ -1,0 +1,712 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\n\nhadoop fs -ls /",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 15:29:20.414",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false,
+          "language": "sh"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "SLF4J: Class path contains multiple SLF4J bindings.\nSLF4J: Found binding in [jar:file:/usr/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: Found binding in [jar:file:/usr/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\nSLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]\n2023-03-19 15:29:22,853 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\nFound 3 items\ndrwxr-xr-x   - root supergroup          0 2023-03-19 15:28 /log\ndrwxr-xr-x   - root supergroup          0 2023-03-19 15:28 /spark-jars\ndrwxrwx---   - root supergroup          0 2023-03-19 15:28 /tmp\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1678636927046_914665196",
+      "id": "paragraph_1678636927046_914665196",
+      "dateCreated": "2023-03-12 16:02:07.046",
+      "dateStarted": "2023-03-19 15:29:20.436",
+      "dateFinished": "2023-03-19 15:29:23.597",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\n\nhadoop fs -put /data/tmp_tos_vsa_nd_nds_r1_2_new.tsv /\nhadoop fs -put /data/tmp_tos_vsa_nd_nds_r3_2_new.tsv /",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 15:29:23.638",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false,
+          "language": "sh"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "SLF4J: Class path contains multiple SLF4J bindings.\nSLF4J: Found binding in [jar:file:/usr/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: Found binding in [jar:file:/usr/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\nSLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]\n2023-03-19 15:29:24,299 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\nSLF4J: Class path contains multiple SLF4J bindings.\nSLF4J: Found binding in [jar:file:/usr/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: Found binding in [jar:file:/usr/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\nSLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]\n2023-03-19 15:29:25,851 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1678636949153_1486889245",
+      "id": "paragraph_1678636949153_1486889245",
+      "dateCreated": "2023-03-12 16:02:29.153",
+      "dateStarted": "2023-03-19 15:29:23.649",
+      "dateFinished": "2023-03-19 15:29:26.871",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\n\nhadoop fs -ls /",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 15:29:26.952",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false,
+          "language": "sh"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "SLF4J: Class path contains multiple SLF4J bindings.\nSLF4J: Found binding in [jar:file:/usr/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: Found binding in [jar:file:/usr/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\nSLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]\n2023-03-19 15:29:27,602 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\nFound 5 items\ndrwxr-xr-x   - root supergroup          0 2023-03-19 15:28 /log\ndrwxr-xr-x   - root supergroup          0 2023-03-19 15:28 /spark-jars\ndrwxrwx---   - root supergroup          0 2023-03-19 15:28 /tmp\n-rw-r--r--   2 root supergroup    1697025 2023-03-19 15:29 /tmp_tos_vsa_nd_nds_r1_2_new.tsv\n-rw-r--r--   2 root supergroup    4699794 2023-03-19 15:29 /tmp_tos_vsa_nd_nds_r3_2_new.tsv\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1678637020884_65259744",
+      "id": "paragraph_1678637020884_65259744",
+      "dateCreated": "2023-03-12 16:03:40.884",
+      "dateStarted": "2023-03-19 15:29:26.963",
+      "dateFinished": "2023-03-19 15:29:28.353",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%jdbc\n\nDROP DATABASE IF EXISTS tmp_tos;\nDROP TABLE IF EXISTS tmp_tos.vsa_nd_nds_r1_tsv;\nDROP TABLE IF EXISTS tmp_tos.vsa_nd_nds_r3_tsv;\nDROP TABLE IF EXISTS tmp_tos.vsa_nd_nds_r1;\nDROP TABLE IF EXISTS tmp_tos.vsa_nd_nds_r3;\n\nCREATE TABLE `vsa_nd_nds_r1`(\n  `code_period` string, \n  `code_present_place` string, \n  `date_receipt` date, \n  `fid` decimal(38,0), \n  `s40` decimal(38,0), \n  `year` decimal(38,0), \n  `quarter` decimal(38,0) \n)\nROW FORMAT SERDE \n  \u0027org.apache.hadoop.hive.ql.io.orc.OrcSerde\u0027 \nSTORED AS INPUTFORMAT \n  \u0027org.apache.hadoop.hive.ql.io.orc.OrcInputFormat\u0027 \nOUTPUTFORMAT \n  \u0027org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat\u0027;\n  \nCREATE TABLE `vsa_nd_nds_r1_tsv`(\n  `code_period` string, \n  `code_present_place` string, \n  `date_receipt` date, \n  `fid`decimal, \n  `s40` decimal(38,0), \n  `year` decimal(38,0), \n  `quarter` decimal(38,0) \n)\nROW FORMAT DELIMITED\nFIELDS TERMINATED BY \u0027\\t\u0027\nSTORED AS TEXTFILE\ntblproperties(\"skip.header.line.count\"\u003d\"1\");\n\nCREATE TABLE `vsa_nd_nds_r3`(\n  `date_creation` timestamp, \n  `fid` INT, \n  `s109_5` decimal(38,0), \n  `s120_3` decimal(38,0), \n  `s3_5` decimal(38,0), \n  `year` decimal(38,0), \n  `quarter` decimal(38,0)\n)\nROW FORMAT SERDE \n  \u0027org.apache.hadoop.hive.ql.io.orc.OrcSerde\u0027 \nSTORED AS INPUTFORMAT \n  \u0027org.apache.hadoop.hive.ql.io.orc.OrcInputFormat\u0027 \nOUTPUTFORMAT \n  \u0027org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat\u0027;\n\nCREATE TABLE `vsa_nd_nds_r3_tsv`(\n  `date_creation` date, \n  `fid` decimal, \n  `s109_5` decimal(38,0), \n  `s120_3` decimal(38,0), \n  `s3_5` decimal(38,0), \n  `year` decimal(38,0), \n  `quarter` decimal(38,0)\n)\nROW FORMAT DELIMITED\nFIELDS TERMINATED BY \u0027\\t\u0027\nSTORED AS TEXTFILE\ntblproperties(\"skip.header.line.count\"\u003d\"2\");\n\nLOAD DATA INPATH \u0027/tmp_tos_vsa_nd_nds_r3_2_new.tsv\u0027 INTO TABLE vsa_nd_nds_r3_tsv;\nLOAD DATA INPATH \u0027/tmp_tos_vsa_nd_nds_r1_2_new.tsv\u0027 INTO TABLE vsa_nd_nds_r1_tsv;",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 15:29:49.441",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "language": "sql"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\nINFO  : Compiling command(queryId\u003droot_20230319152950_0fe9f972-6b36-438b-819c-ad6216e315db): \n\nDROP DATABASE IF EXISTS tmp_tos\nINFO  : Concurrency mode is disabled, not creating a lock manager\nINFO  : Semantic Analysis Completed (retrial \u003d false)\nINFO  : Returning Hive schema: Schema(fieldSchemas:null, properties:null)\nINFO  : Completed compiling command(queryId\u003droot_20230319152950_0fe9f972-6b36-438b-819c-ad6216e315db); Time taken: 0.921 seconds\nINFO  : Concurrency mode is disabled, not creating a lock manager\nINFO  : Executing command(queryId\u003droot_20230319152950_0fe9f972-6b36-438b-819c-ad6216e315db): \n\nDROP DATABASE IF EXISTS tmp_tos\nINFO  : Completed executing command(queryId\u003droot_20230319152950_0fe9f972-6b36-438b-819c-ad6216e315db); Time taken: 0.004 seconds\nINFO  : OK\nINFO  : Concurrency mode is disabled, not creating a lock manager\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1678637118518_1536763292",
+      "id": "paragraph_1678637118518_1536763292",
+      "dateCreated": "2023-03-12 16:05:18.518",
+      "dateStarted": "2023-03-19 15:29:49.453",
+      "dateFinished": "2023-03-19 15:29:52.745",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%jdbc\n\nSELECT * FROM vsa_nd_nds_r1_tsv;",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 15:30:09.757",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "language": "sql"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {
+                    "columns": [
+                      {
+                        "name": "code_period0",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "code_present_place1",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "date_receipt2",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "fid3",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {
+                          "priority": 0.0,
+                          "direction": "desc"
+                        },
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "s404",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "year5",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "quarter6",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      }
+                    ],
+                    "scrollFocus": {},
+                    "selection": [],
+                    "grouping": {
+                      "grouping": [],
+                      "aggregations": [],
+                      "rowExpandedStates": {}
+                    },
+                    "treeView": {},
+                    "pagination": {
+                      "paginationCurrentPage": 1.0,
+                      "paginationPageSize": 250.0
+                    }
+                  },
+                  "tableColumnTypeState": {
+                    "names": {
+                      "code_period": "string",
+                      "code_present_place": "string",
+                      "date_receipt": "string",
+                      "fid": "string",
+                      "s40": "string",
+                      "year": "string",
+                      "quarter": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "code_period\tcode_present_place\tdate_receipt\tfid\ts40\tyear\tquarter\n21\t214\t2019-04-08\t11899\t0\t2015\t1\n22\t214\t2019-04-08\t11899\t0\t2015\t2\n23\t214\t2019-04-08\t11899\t0\t2015\t3\n24\t214\t2019-04-08\t11899\t0\t2015\t4\n22\t214\t2019-07-10\t149602\t405610\t2017\t2\n22\t214\t2019-07-12\t82269\t0\t2017\t2\n23\t214\t2019-07-12\t106026\t117059\t2017\t3\n23\t214\t2019-07-11\t39704\t65306\t2017\t3\n24\t214\t2019-07-10\t35149\t12858067\t2017\t4\n24\t214\t2019-07-11\t193190\t86637\t2017\t4\n24\t214\t2019-07-15\t10489\t110277\t2017\t4\n24\t214\t2019-07-15\t152416\t63577\t2017\t4\n24\t214\t2019-07-10\t180488\t0\t2017\t4\n21\t214\t2019-07-12\t82269\t0\t2018\t1\n21\t214\t2019-07-09\t185686\t0\t2018\t1\n21\t214\t2019-07-09\t114900\t5896908\t2018\t1\n21\t214\t2019-07-12\t106026\t212444\t2018\t1\n21\t214\t2019-07-15\t152170\t236054\t2018\t1\n22\t214\t2019-07-15\t73865\t3396\t2018\t2\n22\t214\t2019-07-09\t185686\t5308250\t2018\t2\n22\t214\t2019-07-12\t18974\t0\t2018\t2\n23\t214\t2019-07-11\t37321\t16733\t2018\t3\n23\t214\t2019-07-10\t106835\t0\t2018\t3\n23\t214\t2019-07-10\t131942\t15789373\t2018\t3\n23\t214\t2019-07-12\t82269\t0\t2018\t3\n23\t214\t2019-07-11\t150988\t177947\t2018\t3\n23\t214\t2019-07-12\t18974\t0\t2018\t3\n23\t214\t2019-07-10\t161914\t143202\t2018\t3\n23\t214\t2019-07-11\t143398\t12173386\t2018\t3\n23\t214\t2019-07-09\t185686\t12557789\t2018\t3\n23\t214\t2019-07-12\t106026\t184643\t2018\t3\n23\t214\t2019-07-12\t23481\t8848988\t2018\t3\n23\t214\t2019-07-09\t169629\t1\t2018\t3\n23\t214\t2019-07-09\t57440\t559327\t2018\t3\n23\t214\t2019-07-12\t166495\t807878\t2018\t3\n24\t214\t2019-07-10\t89763\t679961\t2018\t4\n24\t214\t2019-07-13\t104892\t143\t2018\t4\n24\t214\t2019-07-09\t177428\t197586\t2018\t4\n24\t214\t2019-07-09\t53340\t14612885\t2018\t4\n24\t214\t2019-07-11\t12255\t0\t2018\t4\n24\t214\t2019-07-12\t106026\t127517\t2018\t4\n24\t214\t2019-07-10\t94764\t0\t2018\t4\n24\t214\t2019-07-10\t67879\t894280\t2018\t4\n24\t214\t2019-07-12\t82269\t0\t2018\t4\n24\t214\t2019-07-12\t184978\t49402\t2018\t4\n24\t214\t2019-07-15\t126676\t2466813\t2018\t4\n21\t214\t2019-04-17\t8536\t0\t2019\t1\n21\t214\t2019-04-10\t9805\t0\t2019\t1\n21\t214\t2019-04-07\t19370\t0\t2019\t1\n21\t214\t2019-04-04\t24450\t0\t2019\t1\n21\t214\t2019-04-22\t26089\t81083\t2019\t1\n21\t214\t2019-06-06\t29455\t3757\t2019\t1\n21\t214\t2019-04-23\t29827\t489786\t2019\t1\n21\t214\t2020-08-28\t32091\t35529\t2019\t1\n21\t214\t2020-02-18\t36605\t6791\t2019\t1\n21\t214\t2019-04-16\t43955\t42\t2019\t1\n21\t214\t2019-04-15\t46377\t0\t2019\t1\n21\t214\t2019-04-14\t50220\t0\t2019\t1\n21\t214\t2019-04-22\t52574\t0\t2019\t1\n21\t214\t2019-06-28\t68623\t0\t2019\t1\n21\t214\t2019-06-23\t68964\t84604\t2019\t1\n21\t214\t2019-05-24\t80383\t1169\t2019\t1\n21\t214\t2019-06-06\t81442\t0\t2019\t1\n21\t214\t2019-04-18\t91475\t0\t2019\t1\n21\t214\t2019-04-24\t98697\t213870\t2019\t1\n21\t214\t2020-02-11\t104823\t4703\t2019\t1\n21\t214\t2019-04-14\t107819\t1756\t2019\t1\n21\t214\t2019-04-16\t136791\t0\t2019\t1\n21\t214\t2019-04-02\t137963\t0\t2019\t1\n21\t214\t2019-04-18\t138771\t0\t2019\t1\n21\t214\t2019-04-25\t159676\t0\t2019\t1\n21\t214\t2019-04-22\t165959\t33358\t2019\t1\n21\t214\t2019-04-22\t167605\t0\t2019\t1\n21\t214\t2019-04-24\t168739\t60320\t2019\t1\n21\t214\t2019-04-16\t170921\t0\t2019\t1\n21\t214\t2019-04-15\t186275\t11063\t2019\t1\n21\t214\t2020-01-14\t187792\t77305\t2019\t1\n21\t214\t2019-04-21\t190202\t0\t2019\t1\n21\t214\t2019-04-23\t197294\t852550\t2019\t1\n21\t214\t2019-04-23\t198923\t0\t2019\t1\n21\t214\t2019-04-25\t16149\t42839\t2019\t1\n21\t214\t2019-04-22\t18805\t0\t2019\t1\n21\t214\t2019-04-11\t25953\t0\t2019\t1\n21\t214\t2019-04-02\t44215\t0\t2019\t1\n21\t214\t2019-04-23\t49931\t0\t2019\t1\n21\t214\t2019-04-24\t55046\t0\t2019\t1\n21\t214\t2019-04-19\t56521\t0\t2019\t1\n21\t214\t2019-04-20\t66420\t0\t2019\t1\n21\t214\t2019-04-24\t75763\t0\t2019\t1\n21\t214\t2019-04-18\t79941\t76337\t2019\t1\n21\t214\t2019-04-25\t82190\t13333\t2019\t1\n21\t214\t2019-04-29\t86943\t0\t2019\t1\n21\t214\t2019-06-06\t87889\t20691\t2019\t1\n21\t214\t2019-08-08\t91607\t0\t2019\t1\n21\t214\t2019-04-15\t92058\t0\t2019\t1\n21\t214\t2019-04-10\t92424\t123591\t2019\t1\n21\t214\t2019-04-22\t96478\t20070\t2019\t1\n21\t214\t2019-04-17\t96602\t0\t2019\t1\n21\t214\t2019-04-17\t105883\t658348\t2019\t1\n21\t214\t2019-06-25\t106367\t12\t2019\t1\n21\t214\t2019-07-15\t107705\t35395\t2019\t1\n21\t214\t2019-04-11\t107762\t0\t2019\t1\n21\t214\t2019-04-26\t125442\t0\t2019\t1\n21\t214\t2019-04-22\t127672\t0\t2019\t1\n21\t214\t2019-04-25\t132570\t0\t2019\t1\n21\t214\t2019-04-24\t139803\t0\t2019\t1\n21\t214\t2019-04-09\t140603\t0\t2019\t1\n21\t214\t2019-04-22\t141213\t0\t2019\t1\n21\t214\t2019-06-11\t150433\t432063\t2019\t1\n21\t214\t2019-04-23\t150973\t1884398\t2019\t1\n21\t214\t2019-04-22\t162454\t0\t2019\t1\n21\t214\t2019-04-24\t165955\t204673\t2019\t1\n21\t214\t2019-04-25\t167177\t8038263\t2019\t1\n21\t231\t2019-11-27\t168291\t0\t2019\t1\n21\t214\t2020-01-30\t169736\t19982\t2019\t1\n21\t214\t2019-04-10\t170616\t0\t2019\t1\n21\t214\t2019-04-18\t179876\t8919\t2019\t1\n21\t214\t2019-04-15\t190547\t5671\t2019\t1\n21\t214\t2019-04-22\t199616\t0\t2019\t1\n21\t214\t2019-04-23\t9948\t21310\t2019\t1\n21\t214\t2019-04-25\t14671\t28055\t2019\t1\n21\t214\t2019-04-04\t22908\t0\t2019\t1\n21\t214\t2019-04-22\t55091\t1958\t2019\t1\n21\t214\t2019-08-16\t62579\t2260651\t2019\t1\n21\t214\t2019-04-22\t71880\t0\t2019\t1\n21\t214\t2019-04-05\t77988\t0\t2019\t1\n21\t214\t2019-04-05\t87119\t0\t2019\t1\n21\t214\t2019-04-16\t87333\t0\t2019\t1\n21\t214\t2019-04-25\t93250\t0\t2019\t1\n21\t214\t2020-03-25\t94556\t88901\t2019\t1\n21\t214\t2019-04-15\t104677\t0\t2019\t1\n21\t214\t2019-04-19\t105987\t0\t2019\t1\n21\t214\t2019-07-19\t121021\t10854\t2019\t1\n21\t214\t2019-04-16\t121848\t0\t2019\t1\n21\t214\t2019-04-12\t127253\t0\t2019\t1\n21\t214\t2019-04-11\t138435\t0\t2019\t1\n21\t214\t2019-04-04\t172023\t0\t2019\t1\n21\t214\t2019-06-06\t180615\t0\t2019\t1\n21\t214\t2019-04-25\t185016\t474693\t2019\t1\n21\t214\t2019-04-13\t13907\t0\t2019\t1\n21\t214\t2019-04-25\t17151\t324\t2019\t1\n21\t214\t2019-04-23\t22163\t0\t2019\t1\n21\t214\t2019-04-25\t28066\t75806\t2019\t1\n21\t214\t2019-06-19\t36104\t489457\t2019\t1\n21\t214\t2019-04-10\t36732\t0\t2019\t1\n21\t214\t2019-04-19\t51311\t0\t2019\t1\n21\t214\t2019-04-15\t56676\t0\t2019\t1\n21\t214\t2019-04-25\t62789\t102863\t2019\t1\n21\t214\t2019-07-02\t64286\t0\t2019\t1\n21\t214\t2019-04-12\t65913\t0\t2019\t1\n21\t214\t2019-04-16\t66761\t0\t2019\t1\n21\t214\t2019-06-10\t66945\t60853\t2019\t1\n21\t214\t2019-04-18\t73899\t0\t2019\t1\n21\t214\t2019-04-15\t73993\t0\t2019\t1\n21\t214\t2019-04-24\t82658\t0\t2019\t1\n21\t214\t2019-04-24\t88606\t0\t2019\t1\n21\t214\t2019-04-25\t97766\t8271426\t2019\t1\n21\t214\t2019-10-23\t103885\t593807\t2019\t1\n21\t214\t2019-04-25\t105307\t0\t2019\t1\n21\t214\t2019-04-25\t115104\t0\t2019\t1\n21\t214\t2019-12-05\t122173\t0\t2019\t1\n21\t214\t2019-04-08\t123568\t0\t2019\t1\n21\t214\t2019-04-24\t131642\t984891\t2019\t1\n21\t214\t2019-04-23\t145500\t5861\t2019\t1\n21\t214\t2019-04-24\t155093\t0\t2019\t1\n21\t214\t2019-04-01\t160697\t0\t2019\t1\n21\t214\t2019-04-21\t177799\t0\t2019\t1\n21\t214\t2019-04-08\t185274\t0\t2019\t1\n21\t214\t2019-04-25\t192761\t224607\t2019\t1\n21\t214\t2019-04-24\t194131\t160870\t2019\t1\n21\t214\t2019-04-09\t197308\t0\t2019\t1\n21\t214\t2019-07-13\t10003\t34558\t2019\t1\n21\t214\t2019-04-08\t24498\t0\t2019\t1\n21\t214\t2019-04-22\t29211\t0\t2019\t1\n21\t214\t2019-04-19\t34742\t200\t2019\t1\n21\t214\t2019-04-19\t34994\t119030\t2019\t1\n21\t214\t2019-08-01\t35698\t14870\t2019\t1\n21\t214\t2019-04-22\t68121\t3479085\t2019\t1\n21\t214\t2019-10-28\t70286\t2851\t2019\t1\n21\t214\t2019-04-07\t87205\t0\t2019\t1\n21\t214\t2019-04-23\t87244\t814400\t2019\t1\n21\t231\t2019-06-25\t92372\t0\t2019\t1\n21\t214\t2019-04-25\t93673\t19249\t2019\t1\n21\t214\t2019-04-24\t98755\t0\t2019\t1\n21\t214\t2019-04-24\t105658\t19959\t2019\t1\n21\t214\t2019-04-24\t105891\t2006536\t2019\t1\n21\t214\t2019-04-22\t117644\t4567\t2019\t1\n21\t214\t2020-11-11\t119764\t83211\t2019\t1\n21\t214\t2019-04-18\t127356\t147\t2019\t1\n21\t214\t2019-10-18\t128885\t234861\t2019\t1\n21\t214\t2019-07-05\t128966\t0\t2019\t1\n21\t214\t2019-05-29\t135902\t0\t2019\t1\n21\t214\t2019-04-15\t139202\t0\t2019\t1\n21\t214\t2019-12-06\t142296\t150436\t2019\t1\n21\t214\t2019-04-24\t155175\t0\t2019\t1\n21\t214\t2019-04-15\t155853\t0\t2019\t1\n21\t214\t2019-04-24\t156736\t33199\t2019\t1\n21\t214\t2019-04-28\t165012\t0\t2019\t1\n21\t231\t2019-06-03\t168268\t0\t2019\t1\n21\t214\t2019-04-22\t176244\t0\t2019\t1\n21\t214\t2019-04-24\t182392\t0\t2019\t1\n21\t214\t2020-03-31\t185672\t441886\t2019\t1\n21\t214\t2019-04-22\t190237\t175059\t2019\t1\n21\t214\t2019-04-16\t190592\t0\t2019\t1\n21\t214\t2019-04-02\t196525\t0\t2019\t1\n21\t214\t2019-04-21\t8598\t0\t2019\t1\n21\t214\t2019-04-25\t12365\t16267\t2019\t1\n21\t214\t2020-02-12\t15343\t0\t2019\t1\n21\t214\t2019-04-11\t15548\t0\t2019\t1\n21\t214\t2019-08-19\t20450\t25380\t2019\t1\n21\t214\t2019-04-25\t33531\t41972\t2019\t1\n21\t214\t2020-05-20\t40776\t51710627\t2019\t1\n21\t214\t2019-04-01\t48761\t0\t2019\t1\n21\t214\t2020-01-09\t53860\t0\t2019\t1\n21\t214\t2019-04-11\t67790\t5593\t2019\t1\n21\t214\t2019-04-24\t76274\t325477\t2019\t1\n21\t214\t2019-04-22\t76316\t0\t2019\t1\n21\t214\t2019-05-23\t92069\t11980220\t2019\t1\n21\t214\t2019-04-22\t95685\t0\t2019\t1\n21\t214\t2019-04-23\t100685\t0\t2019\t1\n21\t214\t2019-04-25\t105051\t1172172\t2019\t1\n21\t214\t2019-04-17\t108493\t0\t2019\t1\n21\t214\t2019-04-10\t114067\t0\t2019\t1\n21\t214\t2019-04-24\t120053\t8950\t2019\t1\n21\t214\t2019-04-23\t120153\t506648\t2019\t1\n21\t214\t2019-04-22\t138945\t7444\t2019\t1\n21\t214\t2019-04-22\t144628\t5442\t2019\t1\n21\t214\t2019-04-05\t147271\t0\t2019\t1\n21\t214\t2019-07-02\t148831\t99433\t2019\t1\n21\t214\t2019-04-04\t150677\t0\t2019\t1\n21\t214\t2019-04-09\t162698\t0\t2019\t1\n21\t214\t2019-04-15\t163301\t0\t2019\t1\n21\t214\t2019-04-11\t167261\t0\t2019\t1\n21\t214\t2019-04-04\t175305\t0\t2019\t1\n21\t214\t2019-06-19\t183481\t1830926\t2019\t1\n21\t214\t2019-04-25\t187488\t1490\t2019\t1\n21\t214\t2019-04-24\t192986\t445332\t2019\t1\n21\t214\t2019-06-19\t198631\t250\t2019\t1\n21\t214\t2019-04-15\t15439\t0\t2019\t1\n21\t214\t2019-04-22\t19742\t0\t2019\t1\n21\t214\t2020-05-18\t26659\t113939\t2019\t1\n21\t214\t2019-04-24\t34358\t0\t2019\t1\n21\t214\t2019-04-25\t35320\t787296\t2019\t1\n21\t214\t2019-04-25\t38283\t0\t2019\t1\n21\t214\t2019-04-15\t40872\t0\t2019\t1\n21\t214\t2019-04-24\t43494\t2395662\t2019\t1\n21\t214\t2019-04-25\t45862\t0\t2019\t1\n21\t214\t2019-04-29\t58915\t2931\t2019\t1\n21\t214\t2019-04-09\t63464\t241660\t2019\t1\n21\t214\t2020-03-24\t65893\t900429\t2019\t1\n21\t214\t2019-04-10\t66070\t0\t2019\t1\n21\t214\t2019-04-23\t66408\t0\t2019\t1\n21\t214\t2019-04-18\t67892\t0\t2019\t1\n21\t214\t2019-04-10\t68680\t0\t2019\t1\n21\t214\t2019-04-24\t78909\t283124\t2019\t1\n21\t214\t2019-04-23\t88331\t0\t2019\t1\n21\t214\t2019-10-28\t88703\t78211\t2019\t1\n21\t214\t2019-04-24\t90377\t2383\t2019\t1\n21\t214\t2019-04-14\t90716\t0\t2019\t1\n21\t214\t2019-04-23\t96109\t33892\t2019\t1\n21\t214\t2019-04-25\t105752\t0\t2019\t1\n21\t214\t2019-04-18\t138561\t0\t2019\t1\n21\t214\t2019-04-25\t138591\t0\t2019\t1\n21\t214\t2019-04-25\t146602\t0\t2019\t1\n21\t214\t2019-04-16\t147029\t0\t2019\t1\n21\t214\t2019-12-27\t147360\t53705\t2019\t1\n21\t214\t2019-11-11\t151686\t32650\t2019\t1\n21\t214\t2019-04-15\t158509\t0\t2019\t1\n21\t214\t2019-10-31\t163540\t2315518\t2019\t1\n21\t214\t2019-04-25\t164024\t0\t2019\t1\n21\t214\t2019-04-19\t169700\t0\t2019\t1\n21\t214\t2019-04-15\t170418\t0\t2019\t1\n21\t214\t2019-04-19\t170635\t166019\t2019\t1\n21\t214\t2019-04-17\t181482\t0\t2019\t1\n21\t214\t2019-09-06\t182043\t0\t2019\t1\n21\t214\t2019-07-01\t188328\t547912\t2019\t1\n21\t214\t2019-04-16\t5471\t0\t2019\t1\n21\t214\t2019-04-22\t14287\t195617\t2019\t1\n21\t214\t2019-04-25\t22539\t426\t2019\t1\n21\t214\t2019-04-16\t27033\t0\t2019\t1\n21\t214\t2019-05-04\t28221\t167219\t2019\t1\n21\t214\t2019-09-26\t34867\t247\t2019\t1\n21\t214\t2019-04-23\t37585\t0\t2019\t1\n21\t214\t2020-10-21\t41857\t0\t2019\t1\n21\t214\t2019-04-19\t46049\t0\t2019\t1\n21\t214\t2019-07-09\t55108\t0\t2019\t1\n21\t214\t2019-04-25\t58882\t8829\t2019\t1\n21\t214\t2019-07-25\t61655\t34772\t2019\t1\n21\t214\t2019-04-25\t62285\t0\t2019\t1\n21\t214\t2019-04-24\t68566\t502407\t2019\t1\n21\t214\t2019-04-24\t69240\t22226\t2019\t1\n21\t214\t2020-03-27\t69957\t5268456\t2019\t1\n21\t214\t2019-04-25\t74589\t47203\t2019\t1\n21\t214\t2019-04-05\t77557\t0\t2019\t1\n21\t214\t2019-05-07\t81280\t0\t2019\t1\n21\t214\t2019-04-25\t82975\t0\t2019\t1\n21\t214\t2019-04-24\t90797\t6479\t2019\t1\n21\t214\t2019-04-09\t95307\t0\t2019\t1\n21\t214\t2019-04-10\t110289\t125574\t2019\t1\n21\t214\t2019-04-24\t120754\t944\t2019\t1\n21\t214\t2019-05-27\t132060\t997108\t2019\t1\n21\t214\t2019-04-16\t136551\t100536\t2019\t1\n21\t214\t2019-04-15\t138785\t0\t2019\t1\n21\t214\t2019-04-25\t143137\t55402\t2019\t1\n21\t214\t2019-04-19\t145526\t0\t2019\t1\n21\t214\t2019-04-02\t151545\t0\t2019\t1\n21\t214\t2019-04-03\t151746\t0\t2019\t1\n21\t214\t2019-04-23\t157140\t31509\t2019\t1\n21\t214\t2019-04-15\t158557\t0\t2019\t1\n21\t214\t2019-04-05\t162463\t0\t2019\t1\n21\t214\t2019-04-25\t164861\t705595\t2019\t1\n21\t214\t2019-04-17\t176233\t0\t2019\t1\n21\t214\t2019-04-25\t182000\t0\t2019\t1\n21\t214\t2019-04-08\t186170\t0\t2019\t1\n21\t214\t2019-04-09\t8797\t0\t2019\t1\n21\t214\t2019-04-04\t15190\t0\t2019\t1\n21\t214\t2019-04-21\t20164\t72507\t2019\t1\n21\t214\t2019-07-04\t21312\t53575\t2019\t1\n21\t214\t2019-04-15\t23029\t0\t2019\t1\n21\t214\t2019-04-03\t26572\t0\t2019\t1\n21\t214\t2019-04-19\t33806\t0\t2019\t1\n21\t214\t2019-04-09\t33880\t0\t2019\t1\n21\t214\t2019-04-25\t36929\t3523802\t2019\t1\n21\t214\t2019-04-17\t38065\t5137\t2019\t1\n21\t214\t2019-04-02\t38147\t0\t2019\t1\n21\t214\t2019-04-15\t40881\t0\t2019\t1\n21\t214\t2019-04-22\t42575\t0\t2019\t1\n21\t214\t2019-04-19\t46740\t0\t2019\t1\n21\t214\t2019-04-11\t65648\t0\t2019\t1\n21\t214\t2019-04-08\t66021\t82645\t2019\t1\n21\t214\t2019-12-17\t69533\t11759\t2019\t1\n21\t214\t2019-04-25\t79508\t48332\t2019\t1\n21\t214\t2019-04-19\t82093\t0\t2019\t1\n21\t214\t2020-01-27\t84748\t1307635\t2019\t1\n21\t214\t2019-04-15\t104068\t0\t2019\t1\n21\t214\t2019-06-19\t104459\t0\t2019\t1\n21\t214\t2019-06-14\t111824\t0\t2019\t1\n21\t214\t2019-12-27\t111883\t125400\t2019\t1\n21\t214\t2019-04-15\t112259\t52347\t2019\t1\n21\t214\t2019-04-24\t125896\t50000\t2019\t1\n21\t214\t2019-04-25\t128501\t7279263\t2019\t1\n21\t214\t2019-06-24\t152170\t298596\t2019\t1\n21\t214\t2019-04-25\t157963\t0\t2019\t1\n21\t214\t2019-04-16\t164514\t0\t2019\t1\n21\t214\t2019-04-09\t165405\t0\t2019\t1\n21\t214\t2019-04-15\t165580\t0\t2019\t1\n21\t214\t2019-04-23\t168854\t0\t2019\t1\n21\t214\t2019-04-23\t184078\t291605\t2019\t1\n21\t214\t2019-11-12\t184968\t277021\t2019\t1\n21\t214\t2019-06-06\t189608\t14802\t2019\t1\n21\t214\t2021-01-18\t18632\t1980\t2019\t1\n21\t214\t2019-04-25\t24712\t30697\t2019\t1\n21\t214\t2019-04-25\t27890\t0\t2019\t1\n21\t214\t2019-04-23\t40685\t0\t2019\t1\n21\t214\t2019-04-15\t47070\t0\t2019\t1\n21\t214\t2019-04-15\t50436\t0\t2019\t1\n21\t214\t2020-04-21\t58567\t222093\t2019\t1\n21\t214\t2020-02-26\t61753\t5048982\t2019\t1\n21\t214\t2019-04-16\t71094\t60865\t2019\t1\n21\t214\t2019-04-25\t71432\t0\t2019\t1\n21\t214\t2019-04-16\t72927\t0\t2019\t1\n21\t214\t2019-07-08\t78862\t70142\t2019\t1\n21\t214\t2019-04-12\t90708\t0\t2019\t1\n21\t214\t2019-05-28\t94969\t0\t2019\t1\n21\t214\t2019-04-16\t98696\t0\t2019\t1\n21\t214\t2019-04-29\t99115\t100\t2019\t1\n21\t231\t2019-04-15\t102396\t0\t2019\t1\n21\t214\t2019-04-16\t108864\t0\t2019\t1\n21\t214\t2019-04-11\t111292\t0\t2019\t1\n21\t214\t2019-04-11\t117513\t0\t2019\t1\n21\t214\t2019-04-08\t120327\t15460\t2019\t1\n21\t214\t2019-04-03\t127185\t17853\t2019\t1\n21\t214\t2019-07-17\t128877\t801186\t2019\t1\n21\t214\t2019-10-11\t130643\t0\t2019\t1\n21\t214\t2019-04-25\t139101\t117082\t2019\t1\n21\t214\t2019-04-19\t140718\t29644\t2019\t1\n21\t214\t2019-04-04\t156948\t0\t2019\t1\n21\t214\t2019-04-25\t169404\t476167\t2019\t1\n21\t214\t2020-04-16\t169899\t22313127\t2019\t1\n21\t214\t2019-07-21\t176791\t0\t2019\t1\n21\t214\t2020-07-09\t176917\t13951253\t2019\t1\n21\t214\t2019-04-08\t188770\t0\t2019\t1\n21\t214\t2019-04-24\t198164\t36487\t2019\t1\n21\t214\t2019-10-17\t5043\t6261033\t2019\t1\n21\t214\t2019-04-22\t7496\t87637\t2019\t1\n21\t214\t2019-04-15\t36335\t0\t2019\t1\n21\t214\t2019-04-02\t48394\t0\t2019\t1\n21\t214\t2019-04-15\t49747\t0\t2019\t1\n21\t214\t2019-06-11\t53703\t21069\t2019\t1\n21\t214\t2019-04-24\t58149\t26658\t2019\t1\n21\t214\t2019-04-18\t59509\t36\t2019\t1\n21\t214\t2019-04-24\t67166\t0\t2019\t1\n21\t214\t2019-04-18\t71735\t0\t2019\t1\n21\t214\t2019-04-09\t92317\t0\t2019\t1\n21\t214\t2019-09-30\t93270\t9649\t2019\t1\n21\t214\t2020-01-22\t111206\t5142\t2019\t1\n21\t214\t2019-04-11\t115839\t116553\t2019\t1\n21\t214\t2019-04-24\t116376\t289308\t2019\t1\n21\t214\t2019-04-16\t139050\t0\t2019\t1\n21\t214\t2019-04-24\t143451\t26006\t2019\t1\n21\t214\t2019-04-16\t153562\t0\t2019\t1\n21\t214\t2019-09-19\t154627\t7875\t2019\t1\n21\t214\t2019-04-24\t159875\t72892\t2019\t1\n21\t214\t2019-04-24\t169948\t366045\t2019\t1\n21\t214\t2019-04-16\t172063\t0\t2019\t1\n21\t214\t2019-04-24\t197234\t1979387\t2019\t1\n21\t214\t2019-04-23\t4936\t1248333\t2019\t1\n21\t214\t2019-04-24\t9078\t1635\t2019\t1\n21\t214\t2019-04-23\t11617\t11753286\t2019\t1\n21\t214\t2019-04-23\t15917\t8366\t2019\t1\n21\t214\t2019-04-24\t19638\t240678\t2019\t1\n21\t214\t2019-04-24\t22600\t0\t2019\t1\n21\t214\t2019-04-08\t28802\t0\t2019\t1\n21\t214\t2019-09-10\t40894\t0\t2019\t1\n21\t214\t2019-04-25\t50123\t2692832\t2019\t1\n21\t214\t2019-04-04\t50964\t0\t2019\t1\n21\t214\t2019-04-23\t59668\t25680\t2019\t1\n21\t214\t2019-04-24\t67702\t16067\t2019\t1\n21\t214\t2019-04-22\t70912\t1066\t2019\t1\n21\t214\t2019-11-01\t76394\t11552\t2019\t1\n21\t214\t2019-04-09\t82632\t0\t2019\t1\n21\t214\t2019-12-04\t93981\t4904\t2019\t1\n21\t214\t2019-04-23\t102799\t27496\t2019\t1\n21\t214\t2019-04-08\t129565\t0\t2019\t1\n21\t214\t2019-04-15\t131568\t0\t2019\t1\n21\t214\t2019-08-01\t152206\t0\t2019\t1\n21\t214\t2019-04-08\t157315\t0\t2019\t1\n21\t214\t2019-04-25\t164225\t44676\t2019\t1\n21\t214\t2019-04-24\t167725\t298769\t2019\t1\n21\t214\t2019-12-02\t183636\t40641\t2019\t1\n21\t214\t2019-04-25\t187937\t55201\t2019\t1\n21\t214\t2019-04-22\t195379\t0\t2019\t1\n21\t214\t2019-04-25\t196262\t123430\t2019\t1\n21\t214\t2019-11-15\t10332\t75760\t2019\t1\n21\t214\t2019-04-17\t19131\t0\t2019\t1\n21\t214\t2019-08-05\t21728\t0\t2019\t1\n21\t214\t2019-04-05\t23273\t0\t2019\t1\n21\t214\t2019-10-04\t23635\t2652575\t2019\t1\n21\t214\t2019-04-25\t32057\t0\t2019\t1\n21\t214\t2019-04-24\t35119\t109683\t2019\t1\n21\t214\t2019-04-25\t39331\t91243\t2019\t1\n21\t214\t2019-04-10\t47972\t0\t2019\t1\n21\t214\t2019-07-21\t62332\t4833\t2019\t1\n21\t214\t2020-03-19\t72860\t559057\t2019\t1\n21\t214\t2019-04-25\t92732\t15066174\t2019\t1\n21\t214\t2019-04-24\t111869\t0\t2019\t1\n21\t214\t2019-04-29\t125161\t0\t2019\t1\n21\t214\t2019-04-08\t126104\t0\t2019\t1\n21\t214\t2019-04-22\t130662\t0\t2019\t1\n21\t214\t2019-08-07\t132737\t0\t2019\t1\n21\t214\t2019-07-26\t137132\t41589\t2019\t1\n21\t214\t2019-04-23\t138899\t0\t2019\t1\n21\t214\t2019-04-19\t147365\t3148510\t2019\t1\n21\t214\t2019-04-24\t150213\t8561908\t2019\t1\n21\t214\t2019-04-02\t155876\t0\t2019\t1\n21\t214\t2019-04-05\t162473\t0\t2019\t1\n21\t214\t2020-04-22\t163323\t0\t2019\t1\n21\t214\t2019-04-04\t165203\t0\t2019\t1\n21\t214\t2019-06-07\t166363\t108944\t2019\t1\n21\t214\t2019-06-04\t179793\t462945\t2019\t1\n21\t214\t2019-04-22\t1343\t0\t2019\t1\n21\t214\t2019-09-20\t18999\t1655496\t2019\t1\n21\t214\t2019-04-04\t22555\t0\t2019\t1\n21\t214\t2020-10-19\t30772\t3369\t2019\t1\n21\t214\t2019-04-10\t34604\t0\t2019\t1\n21\t214\t2019-04-16\t36821\t0\t2019\t1\n21\t214\t2019-04-13\t51240\t683242\t2019\t1\n21\t214\t2019-04-24\t58136\t0\t2019\t1\n21\t214\t2019-04-16\t67256\t0\t2019\t1\n21\t213\t2020-11-09\t69101\t194833812\t2019\t1\n21\t214\t2019-04-15\t73713\t0\t2019\t1\n21\t214\t2019-04-20\t80558\t11114\t2019\t1\n21\t214\t2019-04-24\t84615\t0\t2019\t1\n21\t214\t2019-11-15\t98750\t16\t2019\t1\n21\t214\t2019-07-29\t101340\t129659\t2019\t1\n21\t214\t2019-04-08\t102506\t0\t2019\t1\n21\t214\t2019-04-25\t109769\t0\t2019\t1\n21\t214\t2019-06-18\t112728\t408756\t2019\t1\n21\t214\t2019-04-04\t116373\t0\t2019\t1\n21\t214\t2019-04-25\t118958\t0\t2019\t1\n21\t214\t2019-04-24\t122341\t12553012\t2019\t1\n21\t214\t2019-04-24\t126713\t21702117\t2019\t1\n21\t214\t2019-04-04\t130265\t0\t2019\t1\n21\t214\t2019-04-04\t130291\t0\t2019\t1\n21\t214\t2019-04-25\t136303\t170700\t2019\t1\n21\t214\t2019-04-25\t143398\t11019300\t2019\t1\n21\t214\t2019-04-04\t147382\t0\t2019\t1\n21\t214\t2019-07-02\t156003\t56171\t2019\t1\n21\t214\t2019-04-17\t157092\t3056\t2019\t1\n21\t214\t2019-04-11\t161196\t10836\t2019\t1\n21\t214\t2019-04-05\t173414\t0\t2019\t1\n21\t214\t2019-04-15\t176877\t0\t2019\t1\n21\t214\t2019-11-25\t197579\t125015\t2019\t1\n21\t214\t2019-04-15\t18034\t0\t2019\t1\n21\t214\t2019-04-24\t18356\t49673\t2019\t1\n21\t214\t2019-04-25\t34559\t284280\t2019\t1\n21\t214\t2019-06-18\t38239\t0\t2019\t1\n21\t214\t2019-04-17\t48763\t0\t2019\t1\n21\t214\t2019-04-20\t52500\t0\t2019\t1\n21\t214\t2019-04-04\t57378\t1135\t2019\t1\n21\t214\t2019-07-02\t60902\t2033422\t2019\t1\n21\t214\t2019-04-22\t61640\t0\t2019\t1\n21\t214\t2019-04-23\t61860\t18001\t2019\t1\n21\t214\t2019-04-07\t62340\t3362\t2019\t1\n21\t214\t2019-04-24\t64952\t0\t2019\t1\n21\t214\t2019-04-16\t76695\t873642\t2019\t1\n21\t214\t2019-12-09\t86594\t0\t2019\t1\n21\t214\t2020-03-16\t92225\t5809302\t2019\t1\n21\t214\t2019-06-20\t113842\t160196\t2019\t1\n21\t214\t2019-12-26\t120346\t2399\t2019\t1\n21\t214\t2019-04-23\t122799\t3645097\t2019\t1\n21\t214\t2019-04-02\t128361\t0\t2019\t1\n21\t214\t2019-04-10\t138056\t0\t2019\t1\n21\t214\t2019-04-10\t141011\t0\t2019\t1\n21\t214\t2019-04-24\t142070\t124440\t2019\t1\n21\t214\t2019-04-25\t161291\t0\t2019\t1\n21\t214\t2020-03-26\t164602\t10497\t2019\t1\n21\t214\t2020-02-17\t168826\t32710318\t2019\t1\n21\t214\t2019-10-25\t185822\t69441\t2019\t1\n21\t214\t2019-04-24\t190367\t56875\t2019\t1\n21\t214\t2019-04-01\t194435\t0\t2019\t1\n21\t214\t2019-04-24\t197922\t5970\t2019\t1\n21\t214\t2019-04-15\t16521\t0\t2019\t1\n21\t214\t2019-04-25\t31993\t1886782\t2019\t1\n21\t214\t2019-04-25\t32471\t75491\t2019\t1\n21\t214\t2019-04-10\t34793\t0\t2019\t1\n21\t214\t2019-04-25\t35809\t423\t2019\t1\n21\t214\t2020-12-07\t39316\t67101\t2019\t1\n21\t214\t2019-04-18\t49711\t0\t2019\t1\n21\t214\t2019-04-15\t51028\t148201\t2019\t1\n21\t214\t2019-04-05\t57418\t0\t2019\t1\n21\t214\t2019-04-24\t59911\t6645\t2019\t1\n21\t214\t2019-04-16\t67314\t0\t2019\t1\n21\t214\t2019-10-11\t74808\t912113\t2019\t1\n21\t214\t2019-04-22\t77398\t131832\t2019\t1\n21\t214\t2019-04-23\t78595\t233040\t2019\t1\n21\t214\t2019-04-16\t89175\t0\t2019\t1\n21\t214\t2019-04-05\t92654\t0\t2019\t1\n21\t214\t2019-04-23\t92730\t0\t2019\t1\n21\t214\t2019-04-23\t102394\t0\t2019\t1\n21\t214\t2019-10-29\t119453\t2009414\t2019\t1\n21\t214\t2019-04-25\t130981\t3476\t2019\t1\n21\t214\t2019-04-18\t137942\t0\t2019\t1\n21\t214\t2019-04-05\t138694\t0\t2019\t1\n21\t214\t2019-04-25\t147588\t566582\t2019\t1\n21\t214\t2019-07-11\t165181\t0\t2019\t1\n21\t214\t2020-02-19\t166222\t955653\t2019\t1\n21\t214\t2019-08-01\t167909\t166390\t2019\t1\n21\t214\t2019-04-23\t177279\t0\t2019\t1\n21\t214\t2019-04-10\t178068\t0\t2019\t1\n21\t214\t2019-04-17\t178629\t0\t2019\t1\n21\t214\t2019-04-05\t180827\t0\t2019\t1\n21\t214\t2019-04-08\t182843\t0\t2019\t1\n21\t214\t2019-04-04\t188625\t0\t2019\t1\n21\t214\t2019-04-29\t199617\t1831\t2019\t1\n21\t214\t2019-04-16\t199624\t247395\t2019\t1\n21\t214\t2019-04-25\t11155\t295696\t2019\t1\n21\t214\t2019-04-15\t36341\t0\t2019\t1\n21\t214\t2019-04-25\t37018\t230999\t2019\t1\n21\t214\t2019-04-25\t39686\t3578\t2019\t1\n21\t214\t2019-04-22\t46785\t4681102\t2019\t1\n21\t214\t2019-04-15\t50327\t0\t2019\t1\n21\t214\t2019-04-17\t72933\t0\t2019\t1\n21\t214\t2019-04-24\t73783\t664745\t2019\t1\n21\t214\t2019-04-25\t79929\t130457\t2019\t1\n21\t214\t2019-04-18\t80577\t0\t2019\t1\n21\t214\t2020-02-16\t98843\t2000\t2019\t1\n21\t214\t2019-04-25\t112391\t18466\t2019\t1\n21\t214\t2019-04-29\t121251\t0\t2019\t1\n21\t331\t2019-04-08\t122552\t254997\t2019\t1\n21\t214\t2019-08-02\t124430\t455677\t2019\t1\n21\t214\t2019-04-11\t130727\t0\t2019\t1\n21\t214\t2019-04-22\t132696\t3951\t2019\t1\n21\t214\t2019-08-09\t146822\t0\t2019\t1\n21\t214\t2019-04-23\t147967\t6176\t2019\t1\n21\t214\t2019-04-23\t158184\t5\t2019\t1\n21\t214\t2019-04-22\t160579\t0\t2019\t1\n21\t214\t2020-04-20\t166108\t26499525\t2019\t1\n21\t214\t2019-06-07\t173586\t1024441\t2019\t1\n21\t214\t2019-04-23\t175145\t2560104\t2019\t1\n21\t214\t2020-07-17\t190515\t0\t2019\t1\n21\t214\t2019-04-25\t193237\t2125773\t2019\t1\n21\t214\t2019-04-22\t13071\t97941\t2019\t1\n21\t214\t2019-05-13\t32240\t3784421\t2019\t1\n21\t213\t2020-02-07\t46935\t124421\t2019\t1\n21\t214\t2019-04-14\t47978\t0\t2019\t1\n21\t214\t2019-06-19\t50394\t166098\t2019\t1\n21\t214\t2019-08-14\t59126\t17480\t2019\t1\n21\t214\t2020-02-20\t61436\t21194610\t2019\t1\n21\t214\t2019-04-24\t61496\t290513\t2019\t1\n21\t214\t2019-04-16\t65209\t0\t2019\t1\n21\t214\t2019-10-25\t78056\t0\t2019\t1\n21\t214\t2019-04-25\t80871\t254\t2019\t1\n21\t214\t2019-06-17\t85850\t56402\t2019\t1\n21\t214\t2019-04-03\t91569\t0\t2019\t1\n21\t214\t2019-04-19\t91741\t0\t2019\t1\n21\t214\t2019-04-12\t97792\t9763\t2019\t1\n21\t214\t2019-04-11\t98824\t0\t2019\t1\n21\t214\t2019-04-15\t100648\t0\t2019\t1\n21\t214\t2019-04-25\t106276\t0\t2019\t1\n21\t214\t2019-04-18\t107429\t15664\t2019\t1\n21\t214\t2019-04-23\t123451\t0\t2019\t1\n21\t214\t2019-04-30\t126089\t0\t2019\t1\n21\t214\t2020-08-27\t130554\t17804\t2019\t1\n21\t214\t2019-04-16\t130708\t0\t2019\t1\n21\t214\t2019-04-04\t135002\t0\t2019\t1\n21\t214\t2019-04-18\t143029\t425553\t2019\t1\n21\t214\t2019-04-29\t145047\t33820\t2019\t1\n21\t214\t2019-04-04\t150033\t0\t2019\t1\n21\t214\t2019-04-16\t151432\t0\t2019\t1\n21\t214\t2019-04-25\t163585\t46671\t2019\t1\n21\t214\t2019-04-11\t175799\t2685\t2019\t1\n21\t214\t2019-04-25\t177247\t0\t2019\t1\n21\t214\t2019-04-15\t178078\t0\t2019\t1\n21\t214\t2019-04-16\t183540\t2896\t2019\t1\n21\t214\t2019-04-15\t190200\t1130\t2019\t1\n21\t214\t2019-04-04\t198977\t0\t2019\t1\n21\t214\t2020-07-08\t9410\t66847\t2019\t1\n21\t214\t2019-04-24\t13119\t0\t2019\t1\n21\t214\t2019-04-22\t20007\t0\t2019\t1\n21\t214\t2019-04-22\t22892\t0\t2019\t1\n21\t214\t2019-04-09\t23195\t0\t2019\t1\n21\t214\t2019-04-19\t24368\t0\t2019\t1\n21\t214\t2019-04-15\t40896\t0\t2019\t1\n21\t214\t2019-04-11\t41157\t0\t2019\t1\n21\t214\t2019-04-25\t41633\t187668\t2019\t1\n21\t214\t2019-04-15\t50298\t0\t2019\t1\n21\t214\t2019-04-04\t58441\t0\t2019\t1\n21\t214\t2019-04-16\t67619\t0\t2019\t1\n21\t214\t2019-04-25\t69257\t138301\t2019\t1\n21\t214\t2019-04-23\t73102\t0\t2019\t1\n21\t214\t2019-04-16\t85217\t0\t2019\t1\n21\t214\t2019-07-30\t91427\t188645\t2019\t1\n21\t214\t2020-01-21\t104025\t4530\t2019\t1\n21\t214\t2019-04-11\t112417\t0\t2019\t1\n21\t214\t2019-04-09\t114894\t28295\t2019\t1\n21\t214\t2019-04-24\t117724\t43364\t2019\t1\n21\t214\t2019-04-25\t138280\t0\t2019\t1\n21\t214\t2019-04-25\t139246\t1203969\t2019\t1\n21\t214\t2019-04-12\t146688\t0\t2019\t1\n21\t214\t2019-04-17\t147408\t0\t2019\t1\n21\t214\t2019-04-02\t147514\t0\t2019\t1\n21\t214\t2019-04-10\t154830\t0\t2019\t1\n21\t214\t2019-04-24\t173775\t2670595\t2019\t1\n21\t214\t2019-04-10\t177705\t0\t2019\t1\n21\t214\t2019-04-12\t187450\t2068\t2019\t1\n21\t214\t2019-04-22\t193156\t8671\t2019\t1\n21\t214\t2019-04-01\t197732\t0\t2019\t1\n21\t214\t2019-04-25\t198069\t15625\t2019\t1\n21\t214\t2019-04-25\t13342\t46144\t2019\t1\n21\t214\t2019-04-11\t14621\t0\t2019\t1\n21\t214\t2021-01-14\t16403\t102609\t2019\t1\n21\t214\t2019-04-16\t18732\t100586\t2019\t1\n21\t214\t2019-04-25\t21412\t0\t2019\t1\n21\t214\t2019-04-25\t26761\t10659\t2019\t1\n21\t214\t2019-04-22\t28301\t48006\t2019\t1\n21\t214\t2019-04-15\t47832\t0\t2019\t1\n21\t214\t2019-04-16\t51161\t0\t2019\t1\n21\t214\t2019-04-23\t52555\t0\t2019\t1\n21\t214\t2019-06-19\t60577\t99332\t2019\t1\n21\t214\t2019-04-24\t61458\t10982\t2019\t1\n21\t214\t2019-04-25\t71904\t4216\t2019\t1\n21\t214\t2019-08-08\t74151\t654984\t2019\t1\n21\t214\t2019-04-19\t76053\t128\t2019\t1\n21\t214\t2019-06-06\t78233\t5322\t2019\t1\n21\t214\t2019-07-24\t83874\t357588\t2019\t1\n21\t214\t2019-04-22\t84758\t0\t2019\t1\n21\t214\t2019-04-24\t123043\t0\t2019\t1\n21\t214\t2019-04-09\t131129\t0\t2019\t1\n21\t214\t2019-04-17\t137514\t0\t2019\t1\n21\t214\t2019-04-22\t137783\t28178\t2019\t1\n21\t214\t2019-04-22\t147673\t0\t2019\t1\n21\t214\t2020-03-14\t172491\t1217\t2019\t1\n21\t214\t2019-06-03\t173238\t1510214\t2019\t1\n21\t214\t2019-04-22\t181643\t205270\t2019\t1\n21\t214\t2019-10-25\t187140\t9651486\t2019\t1\n21\t214\t2019-04-23\t199203\t0\t2019\t1\n21\t214\t2019-07-18\t6044\t35402699\t2019\t1\n21\t214\t2019-04-25\t11272\t0\t2019\t1\n21\t214\t2019-04-01\t15469\t0\t2019\t1\n21\t214\t2019-04-22\t30418\t372086\t2019\t1\n21\t214\t2019-06-10\t33819\t47323\t2019\t1\n21\t214\t2019-04-22\t41903\t51864914\t2019\t1\n21\t214\t2019-04-19\t45856\t0\t2019\t1\n21\t214\t2019-04-25\t52204\t1120908\t2019\t1\n21\t214\t2019-10-25\t55861\t565164\t2019\t1\n21\t214\t2019-04-23\t56330\t0\t2019\t1\n21\t214\t2019-04-19\t69820\t0\t2019\t1\n21\t214\t2020-10-07\t93056\t0\t2019\t1\n21\t214\t2019-04-02\t93329\t0\t2019\t1\n21\t214\t2019-05-22\t100152\t0\t2019\t1\n21\t214\t2019-04-24\t100869\t0\t2019\t1\n21\t214\t2019-06-10\t110716\t3548791\t2019\t1\n21\t214\t2019-09-06\t117199\t14405762\t2019\t1\n21\t214\t2019-04-03\t130867\t3000\t2019\t1\n21\t214\t2020-03-18\t133399\t10474\t2019\t1\n21\t214\t2020-07-28\t147036\t0\t2019\t1\n21\t214\t2019-04-14\t156504\t35493\t2019\t1\n21\t214\t2019-04-18\t159947\t0\t2019\t1\n21\t214\t2019-04-16\t171945\t0\t2019\t1\n21\t214\t2020-03-12\t178001\t2703657\t2019\t1\n21\t214\t2019-04-25\t178464\t14527\t2019\t1\n21\t214\t2019-05-31\t182427\t46094\t2019\t1\n21\t214\t2019-04-25\t189176\t0\t2019\t1\n21\t214\t2019-04-21\t193981\t0\t2019\t1\n21\t214\t2019-04-03\t195400\t0\t2019\t1\n21\t214\t2019-04-23\t12755\t0\t2019\t1\n21\t214\t2019-04-19\t20418\t5000\t2019\t1\n21\t214\t2019-04-14\t36948\t0\t2019\t1\n21\t214\t2019-04-18\t42190\t24330\t2019\t1\n21\t214\t2019-04-18\t48395\t0\t2019\t1\n21\t214\t2019-04-08\t51527\t0\t2019\t1\n21\t214\t2019-04-25\t58747\t139433\t2019\t1\n21\t214\t2019-04-18\t67402\t8343\t2019\t1\n21\t214\t2019-04-05\t67939\t0\t2019\t1\n21\t214\t2019-04-08\t71260\t0\t2019\t1\n21\t214\t2019-04-24\t74956\t590634\t2019\t1\n21\t214\t2019-04-22\t86361\t26810\t2019\t1\n21\t214\t2019-06-25\t95544\t0\t2019\t1\n21\t214\t2019-05-13\t102298\t17456\t2019\t1\n21\t214\t2019-04-25\t110294\t15559\t2019\t1\n21\t214\t2019-04-25\t125323\t0\t2019\t1\n21\t214\t2019-04-18\t128467\t7756\t2019\t1\n21\t214\t2019-04-15\t130079\t0\t2019\t1\n21\t214\t2019-04-12\t138618\t0\t2019\t1\n21\t214\t2020-03-30\t139939\t0\t2019\t1\n21\t214\t2019-05-24\t146157\t0\t2019\t1\n21\t214\t2019-04-02\t147473\t0\t2019\t1\n21\t214\t2019-04-22\t167933\t745773\t2019\t1\n21\t331\t2019-04-25\t1785\t100510\t2019\t1\n21\t214\t2019-04-23\t6049\t6800026\t2019\t1\n21\t214\t2020-10-06\t13162\t16380701\t2019\t1\n21\t214\t2019-04-24\t15301\t0\t2019\t1\n21\t214\t2019-04-25\t25373\t0\t2019\t1\n21\t214\t2019-04-23\t26190\t12069300\t2019\t1\n21\t214\t2019-05-10\t33867\t207269\t2019\t1\n21\t214\t2019-04-25\t34070\t20025\t2019\t1\n21\t214\t2019-04-17\t35513\t0\t2019\t1\n21\t214\t2019-06-03\t40952\t0\t2019\t1\n21\t214\t2019-04-24\t42319\t33825\t2019\t1\n21\t214\t2019-07-01\t50477\t1692348\t2019\t1\n21\t214\t2019-04-23\t67792\t169868\t2019\t1\n21\t214\t2019-04-19\t72726\t0\t2019\t1\n21\t214\t2019-04-25\t78086\t164702\t2019\t1\n21\t214\t2019-04-23\t82282\t0\t2019\t1\n21\t214\t2019-06-30\t85622\t468735\t2019\t1\n21\t213\t2019-04-17\t87457\t1309198\t2019\t1\n21\t214\t2019-04-21\t90253\t9135\t2019\t1\n21\t214\t2019-04-26\t97383\t0\t2019\t1\n21\t214\t2019-04-24\t104899\t171099\t2019\t1\n21\t214\t2019-04-09\t109023\t7500\t2019\t1\n21\t214\t2019-04-24\t110374\t0\t2019\t1\n21\t214\t2019-04-24\t112367\t77942\t2019\t1\n21\t214\t2019-04-25\t112642\t173529\t2019\t1\n21\t214\t2019-04-24\t115740\t19239\t2019\t1\n21\t214\t2019-04-24\t127408\t3688278\t2019\t1\n21\t214\t2019-04-19\t129416\t0\t2019\t1\n21\t214\t2019-04-24\t130126\t885965\t2019\t1\n21\t214\t2019-07-19\t137422\t0\t2019\t1\n21\t214\t2019-04-01\t143430\t0\t2019\t1\n21\t214\t2019-08-06\t146167\t72598\t2019\t1\n21\t214\t2019-04-08\t147645\t0\t2019\t1\n21\t214\t2019-04-22\t148176\t5007\t2019\t1\n21\t214\t2019-04-24\t169422\t2179\t2019\t1\n21\t214\t2019-04-19\t170533\t0\t2019\t1\n21\t214\t2019-04-23\t198949\t76528\t2019\t1\n21\t214\t2019-04-19\t199830\t0\t2019\t1\n21\t214\t2019-04-23\t2564\t0\t2019\t1\n21\t214\t2019-04-19\t8034\t0\t2019\t1\n21\t214\t2019-04-25\t9517\t5519\t2019\t1\n21\t214\t2019-06-01\t10453\t15241\t2019\t1\n21\t214\t2019-04-25\t14494\t0\t2019\t1\n21\t214\t2019-04-10\t17297\t0\t2019\t1\n21\t214\t2019-04-15\t29944\t0\t2019\t1\n21\t214\t2019-06-13\t32038\t2947\t2019\t1\n21\t214\t2019-04-24\t41908\t0\t2019\t1\n21\t214\t2019-04-24\t43875\t183171\t2019\t1\n21\t214\t2019-04-18\t51151\t0\t2019\t1\n21\t214\t2019-04-25\t51443\t0\t2019\t1\n21\t214\t2019-04-25\t52720\t167726\t2019\t1\n21\t214\t2019-04-24\t53415\t614703\t2019\t1\n21\t214\t2019-04-19\t91589\t0\t2019\t1\n21\t214\t2019-04-15\t106361\t0\t2019\t1\n21\t214\t2019-04-25\t107973\t7314\t2019\t1\n21\t214\t2019-04-19\t113750\t0\t2019\t1\n21\t214\t2019-04-04\t116642\t0\t2019\t1\n21\t214\t2019-04-22\t124806\t0\t2019\t1\n21\t214\t2019-04-10\t127113\t0\t2019\t1\n21\t214\t2019-04-03\t128472\t0\t2019\t1\n21\t214\t2019-06-04\t128572\t0\t2019\t1\n21\t214\t2019-04-24\t140144\t96281\t2019\t1\n21\t214\t2019-04-25\t164941\t5734\t2019\t1\n21\t214\t2019-04-24\t167866\t164766\t2019\t1\n21\t214\t2019-04-25\t171289\t2333216\t2019\t1\n21\t214\t2019-04-09\t174490\t0\t2019\t1\n21\t214\t2019-04-02\t177966\t0\t2019\t1\n21\t214\t2019-04-24\t183175\t0\t2019\t1\n21\t214\t2019-04-11\t8416\t0\t2019\t1\n21\t214\t2019-07-17\t11469\t1510924\t2019\t1\n21\t214\t2019-04-23\t17722\t0\t2019\t1\n21\t214\t2019-04-06\t23263\t0\t2019\t1\n21\t214\t2019-04-15\t24775\t0\t2019\t1\n21\t214\t2019-04-18\t57353\t0\t2019\t1\n21\t214\t2019-04-23\t65190\t232372\t2019\t1\n21\t214\t2019-04-18\t76248\t0\t2019\t1\n21\t214\t2019-07-25\t77892\t73410\t2019\t1\n21\t214\t2019-04-25\t80908\t0\t2019\t1\n21\t214\t2019-04-18\t83376\t985\t2019\t1\n21\t214\t2019-10-25\t95062\t1957125\t2019\t1\n21\t214\t2019-07-24\t95474\t13431785\t2019\t1\n21\t214\t2019-05-22\t99334\t0\t2019\t1\n21\t214\t2019-04-16\t129329\t370404\t2019\t1\n21\t214\t2019-04-25\t131500\t0\t2019\t1\n21\t214\t2019-10-25\t141849\t6140\t2019\t1\n21\t214\t2019-04-25\t141928\t72766\t2019\t1\n21\t214\t2019-07-02\t154836\t0\t2019\t1\n21\t214\t2019-04-07\t155425\t0\t2019\t1\n21\t214\t2019-04-02\t158599\t0\t2019\t1\n21\t214\t2019-04-23\t164527\t53942\t2019\t1\n21\t214\t2019-04-15\t166202\t0\t2019\t1\n21\t214\t2019-04-25\t193180\t6340\t2019\t1\n21\t214\t2019-04-24\t19910\t12474157\t2019\t1\n21\t214\t2019-04-25\t22609\t2244644\t2019\t1\n21\t214\t2019-04-02\t29467\t0\t2019\t1\n21\t214\t2019-04-19\t34144\t167454\t2019\t1\n21\t214\t2019-04-08\t35369\t0\t2019\t1\n21\t214\t2019-04-10\t35595\t0\t2019\t1\n21\t214\t2019-04-24\t38259\t130997\t2019\t1\n21\t214\t2019-04-09\t50283\t19263\t2019\t1\n21\t214\t2019-04-24\t67627\t0\t2019\t1\n21\t214\t2019-04-19\t68148\t15381\t2019\t1\n21\t214\t2020-01-27\t78413\t17899\t2019\t1\n21\t214\t2019-04-16\t79500\t0\t2019\t1\n21\t214\t2019-04-18\t81679\t0\t2019\t1\n21\t214\t2019-07-13\t83381\t45494\t2019\t1\n21\t214\t2019-12-09\t86267\t6445059\t2019\t1\n21\t214\t2019-04-23\t86678\t0\t2019\t1\n21\t214\t2019-06-18\t98421\t15561\t2019\t1\n21\t214\t2019-05-06\t101996\t14858\t2019\t1\n21\t214\t2019-04-24\t104746\t0\t2019\t1\n21\t214\t2019-04-19\t105428\t0\t2019\t1\n21\t214\t2019-04-08\t118671\t0\t2019\t1\n21\t214\t2019-04-29\t137891\t68292\t2019\t1\n21\t214\t2019-04-18\t138733\t0\t2019\t1\n21\t214\t2019-04-24\t141110\t2152\t2019\t1\n21\t214\t2019-04-02\t158022\t0\t2019\t1\n21\t214\t2019-04-23\t159817\t0\t2019\t1\n21\t214\t2019-04-22\t161838\t0\t2019\t1\n21\t214\t2019-06-05\t162101\t2813224\t2019\t1\n21\t214\t2019-07-24\t168764\t0\t2019\t1\n21\t214\t2019-06-25\t172163\t740427\t2019\t1\n21\t214\t2019-04-08\t173626\t0\t2019\t1\n21\t214\t2019-06-04\t175303\t182029\t2019\t1\n21\t214\t2019-04-05\t185118\t0\t2019\t1\n21\t214\t2019-07-18\t191036\t0\t2019\t1\n21\t214\t2019-04-22\t192175\t0\t2019\t1\n21\t214\t2019-05-08\t193526\t89283\t2019\t1\n21\t214\t2019-04-22\t19523\t241007\t2019\t1\n21\t214\t2019-04-18\t33815\t0\t2019\t1\n21\t214\t2019-08-13\t36094\t35689\t2019\t1\n21\t214\t2019-04-22\t42347\t0\t2019\t1\n21\t214\t2019-04-15\t47746\t56742\t2019\t1\n21\t214\t2019-04-24\t55824\t0\t2019\t1\n21\t214\t2019-04-19\t57880\t0\t2019\t1\n21\t214\t2019-04-25\t61080\t511374\t2019\t1\n21\t214\t2019-04-08\t65710\t0\t2019\t1\n21\t214\t2019-04-04\t67657\t0\t2019\t1\n21\t214\t2019-04-23\t70443\t20969\t2019\t1\n21\t214\t2019-04-04\t71679\t0\t2019\t1\n21\t214\t2019-04-18\t85964\t0\t2019\t1\n21\t214\t2019-04-25\t98994\t0\t2019\t1\n21\t214\t2019-05-14\t104674\t0\t2019\t1\n21\t214\t2019-12-12\t115367\t2231924\t2019\t1\n21\t214\t2019-05-30\t116173\t0\t2019\t1\n21\t214\t2019-04-18\t123520\t0\t2019\t1\n21\t214\t2019-04-23\t126869\t0\t2019\t1\n21\t214\t2019-04-24\t129652\t40092\t2019\t1\n21\t214\t2019-04-16\t138371\t0\t2019\t1\n21\t214\t2019-06-28\t139105\t417195\t2019\t1\n21\t214\t2019-04-23\t145858\t0\t2019\t1\n21\t214\t2019-04-02\t147678\t0\t2019\t1\n21\t214\t2019-04-15\t164840\t0\t2019\t1\n21\t214\t2019-08-15\t185441\t11462\t2019\t1\n21\t214\t2019-04-22\t4372\t118098\t2019\t1\n21\t214\t2019-04-15\t12216\t0\t2019\t1\n21\t214\t2019-04-04\t17586\t0\t2019\t1\n21\t214\t2019-04-24\t20557\t50562\t2019\t1\n21\t214\t2019-04-05\t22858\t0\t2019\t1\n21\t214\t2019-04-24\t34052\t4875\t2019\t1\n21\t214\t2019-04-11\t37219\t0\t2019\t1\n21\t214\t2019-04-22\t37886\t2247\t2019\t1\n21\t214\t2019-04-24\t57716\t349387\t2019\t1\n21\t214\t2019-04-29\t60861\t1067825\t2019\t1\n21\t214\t2019-04-24\t62447\t45689\t2019\t1\n21\t214\t2019-04-08\t73393\t0\t2019\t1\n21\t214\t2019-06-24\t74885\t649628\t2019\t1\n21\t214\t2019-04-11\t75329\t0\t2019\t1\n21\t214\t2019-06-19\t79546\t88933\t2019\t1\n21\t214\t2019-04-19\t80107\t0\t2019\t1\n21\t214\t2019-04-19\t82040\t0\t2019\t1\n21\t214\t2019-04-15\t85222\t0\t2019\t1\n21\t214\t2019-04-08\t96151\t0\t2019\t1\n21\t214\t2019-04-05\t100270\t0\t2019\t1\n21\t214\t2019-04-25\t112026\t97169\t2019\t1\n21\t214\t2019-04-24\t124477\t1525\t2019\t1\n21\t214\t2019-04-15\t131290\t163\t2019\t1\n21\t214\t2019-04-24\t139673\t0\t2019\t1\n21\t214\t2020-03-20\t142386\t102261\t2019\t1\n21\t214\t2019-04-12\t167333\t0\t2019\t1\n21\t214\t2019-04-03\t176873\t0\t2019\t1\n21\t214\t2019-04-16\t176936\t0\t2019\t1\n21\t214\t2019-04-18\t177028\t0\t2019\t1\n21\t214\t2019-04-23\t184445\t159259\t2019\t1\n21\t214\t2019-04-10\t186109\t0\t2019\t1\n21\t214\t2019-04-24\t186161\t9196\t2019\t1\n21\t214\t2019-04-25\t191272\t0\t2019\t1\n21\t214\t2019-04-18\t193998\t78403\t2019\t1\n21\t214\t2019-04-23\t195108\t459265\t2019\t1\n21\t214\t2019-04-23\t199007\t0\t2019\t1\n21\t214\t2019-04-24\t199278\t35326\t2019\t1\n21\t214\t2019-04-16\t7497\t2274\t2019\t1\n21\t214\t2019-04-22\t8506\t80072\t2019\t1\n21\t214\t2019-04-24\t11914\t319620\t2019\t1\n21\t214\t2019-04-23\t19178\t0\t2019\t1\n21\t214\t2019-04-23\t42689\t0\t2019\t1\n21\t214\t2019-04-22\t44948\t8219294\t2019\t1\n21\t214\t2019-04-15\t53376\t20429\t2019\t1\n21\t214\t2019-04-22\t53548\t0\t2019\t1\n21\t214\t2019-04-25\t69881\t0\t2019\t1\n21\t214\t2019-04-20\t72449\t3865\t2019\t1\n21\t214\t2019-04-17\t73343\t46917\t2019\t1\n21\t214\t2019-04-08\t87823\t0\t2019\t1\n21\t214\t2019-04-24\t90087\t736730\t2019\t1\n21\t214\t2019-04-19\t90484\t24531\t2019\t1\n21\t214\t2019-04-11\t91773\t0\t2019\t1\n21\t214\t2019-04-10\t92300\t0\t2019\t1\n21\t214\t2019-08-13\t94322\t211\t2019\t1\n21\t214\t2019-07-06\t94764\t0\t2019\t1\n21\t214\t2019-04-25\t95848\t149057\t2019\t1\n21\t214\t2019-04-23\t98256\t0\t2019\t1\n21\t214\t2019-05-07\t100833\t34156\t2019\t1\n21\t214\t2019-06-05\t108107\t0\t2019\t1\n21\t214\t2019-04-12\t110207\t0\t2019\t1\n21\t214\t2019-04-17\t113025\t0\t2019\t1\n21\t214\t2019-04-16\t113767\t685\t2019\t1\n21\t214\t2019-04-15\t115580\t0\t2019\t1\n21\t214\t2019-04-23\t120763\t170116\t2019\t1\n21\t214\t2019-04-19\t124200\t0\t2019\t1\n21\t214\t2019-04-12\t127539\t0\t2019\t1\n21\t214\t2019-04-04\t141240\t0\t2019\t1\n21\t214\t2019-04-15\t145079\t0\t2019\t1\n21\t214\t2019-07-24\t146225\t332791\t2019\t1\n21\t214\t2019-04-15\t149291\t0\t2019\t1\n21\t214\t2019-04-08\t160236\t0\t2019\t1\n21\t214\t2019-04-22\t163908\t0\t2019\t1\n21\t214\t2019-04-24\t165671\t876707\t2019\t1\n21\t214\t2019-04-24\t175665\t0\t2019\t1\n21\t214\t2019-04-24\t177900\t7500\t2019\t1\n21\t214\t2019-04-18\t192417\t0\t2019\t1\n21\t214\t2019-04-25\t14248\t26737697\t2019\t1\n21\t214\t2019-04-25\t19838\t0\t2019\t1\n21\t214\t2019-12-23\t22304\t3738007\t2019\t1\n21\t214\t2019-04-16\t23206\t0\t2019\t1\n21\t214\t2020-11-09\t43102\t0\t2019\t1\n21\t214\t2019-04-11\t59067\t0\t2019\t1\n21\t214\t2019-04-24\t65124\t7672\t2019\t1\n21\t214\t2020-12-08\t69689\t64886\t2019\t1\n21\t214\t2019-04-05\t73640\t0\t2019\t1\n21\t214\t2019-04-25\t91953\t2472\t2019\t1\n21\t214\t2019-04-24\t92595\t1407\t2019\t1\n21\t214\t2019-04-15\t93975\t0\t2019\t1\n21\t214\t2019-04-25\t108173\t13953\t2019\t1\n21\t214\t2019-04-25\t110975\t193906\t2019\t1\n21\t214\t2019-06-04\t123802\t384396\t2019\t1\n21\t214\t2019-04-19\t126237\t5102\t2019\t1\n21\t214\t2019-08-06\t130886\t332244\t2019\t1\n21\t214\t2019-04-25\t139316\t74375\t2019\t1\n21\t214\t2019-04-16\t140629\t0\t2019\t1\n21\t214\t2019-04-09\t143308\t0\t2019\t1\n21\t214\t2019-04-12\t161090\t0\t2019\t1\n21\t214\t2019-04-22\t161366\t0\t2019\t1\n21\t214\t2019-04-08\t173620\t0\t2019\t1\n21\t214\t2019-04-22\t187330\t12381\t2019\t1\n21\t214\t2019-04-24\t189274\t0\t2019\t1\n21\t214\t2019-04-18\t195700\t9500\t2019\t1\n21\t214\t2019-04-08\t1255\t130157\t2019\t1\n21\t214\t2019-04-10\t1826\t0\t2019\t1\n21\t214\t2019-04-23\t6756\t0\t2019\t1\n21\t214\t2019-04-02\t15550\t0\t2019\t1\n21\t214\t2019-04-04\t21421\t0\t2019\t1\n21\t231\t2019-04-19\t21758\t0\t2019\t1\n21\t214\t2019-04-30\t28971\t13049\t2019\t1\n21\t214\t2019-04-19\t43884\t0\t2019\t1\n21\t214\t2019-04-01\t46009\t0\t2019\t1\n21\t214\t2019-04-25\t47368\t70322\t2019\t1\n21\t214\t2019-04-08\t50678\t0\t2019\t1\n21\t214\t2019-04-19\t53329\t12469750\t2019\t1\n21\t214\t2020-12-30\t58542\t41105587\t2019\t1\n21\t214\t2019-04-23\t67859\t1356614\t2019\t1\n21\t214\t2019-04-25\t69821\t0\t2019\t1\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1678637395450_1589124862",
+      "id": "paragraph_1678637395450_1589124862",
+      "dateCreated": "2023-03-12 16:09:55.450",
+      "dateStarted": "2023-03-19 15:30:09.768",
+      "dateFinished": "2023-03-19 15:30:11.314",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%jdbc\n\nSELECT*FROM vsa_nd_nds_r3_tsv;",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 15:30:21.250",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "language": "sql"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "date_creation": "string",
+                      "fid": "string",
+                      "s109_5": "string",
+                      "s120_3": "string",
+                      "s3_5": "string",
+                      "year": "string",
+                      "quarter": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "date_creation\tfid\ts109_5\ts120_3\ts3_5\tyear\tquarter\n2019-04-08\t11899\t0\t0\t0\t2015\t2\n2019-04-08\t11899\t0\t0\t0\t2015\t3\n2019-04-08\t11899\t0\t0\t0\t2015\t4\n2019-07-08\t106026\t0\t1082400\t0\t2017\t1\n2019-07-12\t82269\t0\t0\t0\t2017\t1\n2019-07-08\t106026\t0\t1868545\t0\t2017\t2\n2019-07-11\t193190\t0\t28288808\t0\t2017\t2\n2019-07-14\t90996\t0\t2191171\t0\t2017\t2\n2019-07-15\t45889\t0\t1933725\t0\t2017\t2\n2019-07-12\t82269\t0\t0\t0\t2017\t2\n2019-07-10\t149602\t0\t277988\t0\t2017\t2\n2019-07-15\t101648\t0\t10353540\t0\t2017\t3\n2019-07-12\t168670\t0\t2123756\t0\t2017\t3\n2019-07-12\t82269\t0\t0\t0\t2017\t3\n2019-07-08\t106026\t0\t5899028\t0\t2017\t3\n2019-07-11\t39704\t0\t3006095\t0\t2017\t3\n2019-07-11\t60575\t0\t392507\t0\t2017\t3\n2019-07-12\t168670\t0\t2578450\t0\t2017\t4\n2019-07-12\t82269\t0\t0\t0\t2017\t4\n2019-07-15\t10489\t0\t1140612\t0\t2017\t4\n2019-07-14\t185668\t0\t2747354\t0\t2017\t4\n2019-07-08\t106026\t0\t6283521\t0\t2017\t4\n2019-07-10\t35149\t0\t114507138\t0\t2017\t4\n2019-07-11\t193190\t0\t45018909\t0\t2017\t4\n2018-09-18\t107025\t0\t8395658\t0\t2017\t4\n2019-07-11\t73416\t0\t43944\t0\t2017\t4\n2019-07-10\t180488\t0\t0\t0\t2017\t4\n2019-07-04\t106116\t0\t3367396\t0\t2017\t4\n2019-07-15\t152416\t0\t4693959\t0\t2017\t4\n2019-07-09\t147180\t0\t338653\t0\t2017\t4\n2019-07-12\t119764\t0\t2626030\t0\t2018\t1\n2019-07-09\t114900\t0\t152651\t0\t2018\t1\n2019-06-28\t29810\t0\t604373\t0\t2018\t1\n2019-07-15\t152170\t0\t108686\t0\t2018\t1\n2019-07-11\t57440\t0\t9110633\t0\t2018\t1\n2019-07-09\t77835\t0\t3558106\t0\t2018\t1\n2018-04-23\t180707\t0\t9588207\t0\t2018\t1\n2019-07-10\t44006\t0\t2398123\t0\t2018\t1\n2019-07-12\t82269\t0\t0\t0\t2018\t1\n2018-11-30\t74536\t0\t44710165\t0\t2018\t1\n2019-07-12\t195534\t0\t2659301\t0\t2018\t1\n2019-07-09\t185686\t0\t2475357\t0\t2018\t1\n2019-07-11\t106026\t0\t1219147\t0\t2018\t1\n2019-07-10\t118148\t0\t34496112\t0\t2018\t1\n2019-07-12\t40271\t0\t5191852\t0\t2018\t2\n2019-07-10\t44006\t0\t6450582\t0\t2018\t2\n2019-07-09\t185686\t0\t50514400\t0\t2018\t2\n2019-07-11\t106026\t0\t3742245\t0\t2018\t2\n2019-07-09\t77835\t0\t2110506\t0\t2018\t2\n2019-07-12\t82269\t0\t0\t0\t2018\t2\n2018-08-30\t176836\t0\t1880727\t0\t2018\t2\n2019-07-11\t37321\t0\t14011\t0\t2018\t2\n2019-07-12\t134083\t0\t162299\t0\t2018\t2\n2019-07-09\t41444\t0\t660373\t0\t2018\t2\n2019-07-15\t73865\t0\t285202\t0\t2018\t2\n2018-07-23\t180707\t0\t20483261\t0\t2018\t2\n2019-07-11\t18974\t0\t0\t0\t2018\t2\n2019-07-08\t158781\t0\t130794027\t0\t2018\t2\n2019-07-11\t118148\t0\t37364777\t0\t2018\t2\n2019-07-12\t166495\t0\t11670029\t0\t2018\t3\n2019-07-15\t66927\t0\t48465\t0\t2018\t3\n2019-07-11\t37321\t0\t5615845\t0\t2018\t3\n2019-07-09\t185686\t0\t7917560\t0\t2018\t3\n2019-07-10\t23481\t0\t7255839\t0\t2018\t3\n2019-07-12\t45374\t0\t766327\t0\t2018\t3\n2019-07-08\t169629\t0\t0\t0\t2018\t3\n2019-07-15\t59618\t0\t182726688\t0\t2018\t3\n2019-07-11\t2117\t0\t2180072\t0\t2018\t3\n2019-07-10\t106835\t0\t117293965\t0\t2018\t3\n2019-07-11\t106026\t0\t6463434\t0\t2018\t3\n2019-07-11\t143398\t0\t24053885\t0\t2018\t3\n2019-07-12\t34395\t0\t39851475\t0\t2018\t3\n2019-07-12\t82269\t0\t0\t0\t2018\t3\n2019-07-11\t44006\t0\t8907060\t0\t2018\t3\n2019-07-10\t131942\t0\t94015789\t0\t2018\t3\n2019-06-20\t161914\t0\t27984\t0\t2018\t3\n2019-03-22\t150988\t0\t145838\t0\t2018\t3\n2019-07-11\t7756\t0\t26949613\t0\t2018\t3\n2019-07-11\t152974\t0\t6708705\t0\t2018\t3\n2019-07-11\t68600\t0\t3131151\t0\t2018\t3\n2019-07-11\t18974\t0\t0\t0\t2018\t3\n2019-07-10\t94764\t0\t0\t0\t2018\t3\n2019-06-13\t57440\t0\t16710556\t0\t2018\t3\n2019-07-15\t96675\t0\t7781200\t0\t2018\t3\n2019-07-11\t13441\t0\t0\t0\t2018\t4\n2019-02-28\t159646\t0\t17060190\t0\t2018\t4\n2019-07-12\t58739\t0\t0\t0\t2018\t4\n2015-12-01\t19863\t0\t9890883\t0\t2018\t4\n2019-01-24\t30908\t0\t1580016\t0\t2018\t4\n2019-07-15\t179560\t0\t89505890\t0\t2018\t4\n2019-07-09\t53340\t0\t3623426\t0\t2018\t4\n2019-07-15\t152416\t0\t4281448\t0\t2018\t4\n2019-06-21\t161914\t0\t280220\t0\t2018\t4\n2019-07-09\t185686\t0\t73862418\t0\t2018\t4\n2019-07-13\t192088\t0\t0\t0\t2018\t4\n2019-07-12\t129149\t0\t94012522\t0\t2018\t4\n2019-07-12\t106026\t0\t4490873\t0\t2018\t4\n2019-07-10\t89147\t0\t2855063\t0\t2018\t4\n2019-07-11\t184978\t0\t101274713\t0\t2018\t4\n2019-07-08\t158781\t0\t191610020\t0\t2018\t4\n2019-07-11\t44006\t0\t24695487\t0\t2018\t4\n2019-01-25\t192133\t0\t37667661\t0\t2018\t4\n2019-07-10\t89763\t0\t1775013\t0\t2018\t4\n2019-07-10\t28135\t0\t14690274\t0\t2018\t4\n2019-07-08\t155464\t0\t9599376\t0\t2018\t4\n2019-07-10\t118148\t0\t74820563\t0\t2018\t4\n2019-01-24\t102417\t0\t0\t0\t2018\t4\n2019-07-15\t68600\t0\t3673477\t0\t2018\t4\n2019-07-12\t39316\t0\t1207637\t0\t2018\t4\n2019-07-10\t67879\t0\t4855073\t0\t2018\t4\n2019-07-11\t78665\t0\t681148\t0\t2018\t4\n2019-07-15\t46231\t0\t109726143\t0\t2018\t4\n2019-07-12\t104892\t0\t1472653\t0\t2018\t4\n2019-07-12\t84896\t0\t470433\t0\t2018\t4\n2019-01-25\t161855\t0\t340693\t0\t2018\t4\n2019-07-05\t12255\t0\t0\t0\t2018\t4\n2019-07-10\t106116\t0\t5752849\t0\t2018\t4\n2019-07-12\t168826\t0\t90136485\t0\t2018\t4\n2019-07-12\t82269\t0\t0\t0\t2018\t4\n2019-07-15\t108746\t0\t841407\t0\t2018\t4\n2019-07-09\t98118\t0\t52860841\t0\t2018\t4\n2019-07-08\t177428\t0\t438850\t0\t2018\t4\n2019-01-25\t164020\t0\t20492999\t0\t2018\t4\n2019-07-11\t99195\t0\t6462451\t0\t2018\t4\n2019-07-11\t189858\t0\t240490325\t0\t2018\t4\n2019-07-12\t176917\t0\t44475145\t0\t2018\t4\n2019-07-10\t94764\t0\t0\t0\t2018\t4\n2019-07-11\t37611\t0\t4599620\t0\t2018\t4\n2019-07-15\t126676\t0\t2596101\t0\t2018\t4\n2019-05-29\t1961\t0\t17941652\t0\t2019\t1\n2019-04-25\t14494\t0\t0\t0\t2019\t1\n2019-04-07\t16965\t0\t0\t0\t2019\t1\n2019-04-19\t20718\t0\t0\t0\t2019\t1\n2019-04-25\t23470\t0\t0\t0\t2019\t1\n2020-10-13\t24287\t0\t10077191\t0\t2019\t1\n2019-04-03\t26572\t0\t0\t0\t2019\t1\n2019-04-06\t35705\t0\t0\t0\t2019\t1\n2019-04-25\t47102\t0\t183278\t0\t2019\t1\n2019-04-22\t49002\t0\t165250\t0\t2019\t1\n2019-04-04\t50196\t0\t0\t0\t2019\t1\n2019-04-04\t50985\t0\t0\t0\t2019\t1\n2019-06-15\t51146\t0\t3423126\t0\t2019\t1\n2019-04-11\t58551\t0\t0\t0\t2019\t1\n2019-04-25\t58572\t0\t258916\t0\t2019\t1\n2019-04-22\t61640\t0\t0\t0\t2019\t1\n2019-04-24\t62250\t0\t2524285\t0\t2019\t1\n2019-08-09\t63594\t0\t5150746\t0\t2019\t1\n2019-04-23\t69498\t0\t1141763\t0\t2019\t1\n2019-04-23\t69890\t0\t1641864\t0\t2019\t1\n2019-04-25\t75347\t0\t642263\t0\t2019\t1\n2019-04-01\t78213\t0\t0\t0\t2019\t1\n2019-04-22\t80195\t0\t20188\t0\t2019\t1\n2021-05-20\t80443\t0\t9840483\t0\t2019\t1\n2019-04-22\t81925\t0\t62448\t0\t2019\t1\n2019-04-24\t82391\t0\t1524415\t0\t2019\t1\n2019-04-23\t86342\t0\t14980496\t0\t2019\t1\n2019-04-23\t86682\t0\t4979563\t0\t2019\t1\n2019-07-08\t88666\t0\t2512181\t0\t2019\t1\n2019-04-02\t91618\t0\t0\t0\t2019\t1\n2019-04-24\t96663\t0\t309091\t0\t2019\t1\n2019-04-24\t98416\t0\t5210593\t0\t2019\t1\n2019-10-23\t99143\t0\t0\t0\t2019\t1\n2019-04-24\t103753\t0\t18023574\t0\t2019\t1\n2019-10-24\t107327\t0\t0\t0\t2019\t1\n2019-04-11\t107431\t0\t0\t0\t2019\t1\n2019-12-19\t109530\t0\t0\t0\t2019\t1\n2019-04-22\t113773\t0\t183243\t0\t2019\t1\n2019-05-23\t117256\t0\t0\t0\t2019\t1\n2019-04-23\t118140\t0\t1216141\t0\t2019\t1\n2019-04-23\t120153\t0\t1433470\t0\t2019\t1\n2019-04-03\t121945\t0\t0\t0\t2019\t1\n2019-04-23\t124575\t0\t10087\t0\t2019\t1\n2019-04-21\t126275\t0\t0\t0\t2019\t1\n2019-04-24\t126277\t0\t115608\t0\t2019\t1\n2019-04-03\t127185\t0\t94247\t0\t2019\t1\n2019-10-18\t128885\t0\t260295\t0\t2019\t1\n2019-07-25\t132938\t0\t5899762\t0\t2019\t1\n2019-04-11\t135820\t0\t0\t0\t2019\t1\n2019-04-25\t136190\t0\t46195\t0\t2019\t1\n2019-04-18\t138287\t0\t0\t0\t2019\t1\n2019-05-28\t138841\t0\t1237719\t0\t2019\t1\n2019-04-12\t140959\t0\t771649\t0\t2019\t1\n2019-04-10\t142691\t0\t0\t0\t2019\t1\n2019-07-05\t145607\t0\t3571447\t0\t2019\t1\n2019-06-13\t147711\t0\t2901226\t0\t2019\t1\n2019-04-25\t150392\t0\t0\t0\t2019\t1\n2019-04-24\t157033\t0\t0\t0\t2019\t1\n2019-04-25\t158063\t0\t24490\t0\t2019\t1\n2019-04-24\t159064\t0\t0\t0\t2019\t1\n2019-04-15\t164021\t0\t0\t0\t2019\t1\n2019-04-20\t166110\t0\t5201859\t0\t2019\t1\n2019-07-26\t167950\t0\t70411\t0\t2019\t1\n2019-04-11\t172273\t0\t0\t0\t2019\t1\n2019-04-24\t177761\t0\t230545\t0\t2019\t1\n2019-04-22\t178750\t0\t0\t0\t2019\t1\n2019-08-06\t184199\t0\t4169814\t0\t2019\t1\n2019-04-23\t184459\t0\t0\t0\t2019\t1\n2019-04-25\t186520\t0\t1977028\t0\t2019\t1\n2019-04-24\t187165\t0\t10147782\t0\t2019\t1\n2019-05-21\t189093\t0\t2016\t0\t2019\t1\n2019-04-22\t198213\t0\t0\t0\t2019\t1\n2019-04-25\t198632\t0\t333887\t0\t2019\t1\n2019-04-15\t198747\t0\t0\t0\t2019\t1\n2019-04-05\t9509\t0\t0\t0\t2019\t1\n2019-04-25\t10083\t0\t0\t0\t2019\t1\n2019-04-23\t10275\t0\t703795\t0\t2019\t1\n2019-04-01\t22717\t0\t0\t0\t2019\t1\n2019-04-22\t33229\t0\t461103\t0\t2019\t1\n2019-04-25\t34462\t0\t1335007\t0\t2019\t1\n2019-04-14\t36334\t0\t0\t0\t2019\t1\n2019-04-18\t49976\t0\t0\t0\t2019\t1\n2019-04-23\t50638\t0\t0\t0\t2019\t1\n2019-06-13\t52267\t0\t1761665\t0\t2019\t1\n2019-04-25\t55811\t0\t3330109\t0\t2019\t1\n2019-06-06\t57212\t0\t911817\t0\t2019\t1\n2019-04-24\t58046\t0\t0\t0\t2019\t1\n2019-04-08\t65760\t0\t0\t0\t2019\t1\n2019-04-01\t72026\t0\t0\t0\t2019\t1\n2019-04-17\t77330\t0\t0\t0\t2019\t1\n2019-10-03\t78573\t0\t1678051\t0\t2019\t1\n2019-04-13\t79445\t0\t0\t0\t2019\t1\n2019-04-07\t80288\t0\t0\t0\t2019\t1\n2019-04-18\t80577\t0\t0\t0\t2019\t1\n2019-04-22\t82934\t0\t373251\t0\t2019\t1\n2019-04-22\t83895\t0\t906283\t0\t2019\t1\n2019-04-23\t84102\t0\t0\t0\t2019\t1\n2019-04-22\t86143\t0\t0\t0\t2019\t1\n2019-04-18\t88505\t0\t0\t0\t2019\t1\n2019-04-03\t88535\t0\t0\t0\t2019\t1\n2019-04-25\t89347\t0\t389316\t0\t2019\t1\n2019-04-10\t92743\t0\t0\t0\t2019\t1\n2019-04-10\t93251\t0\t0\t0\t2019\t1\n2019-08-16\t94362\t0\t19538209\t0\t2019\t1\n2019-04-25\t95731\t0\t414345\t0\t2019\t1\n2019-04-17\t96602\t0\t161202\t0\t2019\t1\n2019-04-25\t97958\t0\t71410\t0\t2019\t1\n2019-04-19\t99354\t0\t134239\t0\t2019\t1\n2019-06-06\t101955\t0\t47692\t0\t2019\t1\n2019-04-24\t105452\t0\t0\t0\t2019\t1\n2019-04-25\t105752\t0\t0\t0\t2019\t1\n2019-06-18\t107548\t0\t2836990\t0\t2019\t1\n2019-04-24\t110190\t0\t476579\t0\t2019\t1\n2019-04-04\t113930\t0\t0\t0\t2019\t1\n2019-06-17\t116198\t0\t357531\t0\t2019\t1\n2019-04-24\t117091\t0\t0\t0\t2019\t1\n2019-04-24\t118604\t0\t1159794\t0\t2019\t1\n2020-10-20\t119083\t0\t0\t0\t2019\t1\n2019-04-24\t122887\t0\t1214920\t0\t2019\t1\n2019-04-05\t123116\t0\t48586\t0\t2019\t1\n2019-04-25\t123488\t0\t3355757\t0\t2019\t1\n2019-04-24\t126404\t0\t1239903\t0\t2019\t1\n2019-11-11\t126505\t0\t18394147\t0\t2019\t1\n2019-04-25\t127918\t0\t0\t0\t2019\t1\n2019-04-23\t128370\t0\t0\t0\t2019\t1\n2019-04-25\t128755\t0\t0\t0\t2019\t1\n2019-07-09\t131789\t0\t13172230\t0\t2019\t1\n2019-04-17\t136084\t0\t0\t0\t2019\t1\n2019-04-24\t138446\t0\t291284\t0\t2019\t1\n2019-04-04\t138860\t0\t111505\t0\t2019\t1\n2019-04-24\t147218\t0\t0\t0\t2019\t1\n2019-04-24\t150074\t0\t0\t0\t2019\t1\n2019-04-01\t150670\t0\t0\t0\t2019\t1\n2019-04-25\t153696\t0\t0\t0\t2019\t1\n2019-04-24\t161424\t0\t1827077\t0\t2019\t1\n2019-04-01\t161897\t0\t0\t0\t2019\t1\n2019-04-10\t162422\t0\t0\t0\t2019\t1\n2019-04-25\t162696\t0\t48238\t0\t2019\t1\n2019-06-24\t163991\t0\t518476\t0\t2019\t1\n2019-04-15\t168437\t0\t0\t0\t2019\t1\n2019-04-05\t168783\t0\t0\t0\t2019\t1\n2019-04-25\t171289\t0\t917392\t0\t2019\t1\n2019-04-13\t174924\t0\t50057\t0\t2019\t1\n2019-04-02\t178010\t0\t0\t0\t2019\t1\n2019-04-10\t181131\t0\t0\t0\t2019\t1\n2019-04-16\t192679\t0\t0\t0\t2019\t1\n2019-04-21\t193018\t0\t1805052\t0\t2019\t1\n2019-04-11\t193450\t0\t0\t0\t2019\t1\n2020-03-10\t197799\t0\t111722910\t0\t2019\t1\n2019-04-05\t125618\t0\t58985\t0\t2019\t1\n2019-10-23\t126688\t0\t11016\t0\t2019\t1\n2019-04-25\t135970\t0\t0\t0\t2019\t1\n2019-04-10\t137036\t0\t0\t0\t2019\t1\n2019-04-06\t141531\t0\t20451\t0\t2019\t1\n2019-04-08\t143048\t0\t0\t0\t2019\t1\n2019-05-22\t143374\t0\t226937\t0\t2019\t1\n2019-04-20\t143935\t0\t0\t0\t2019\t1\n2019-04-25\t146127\t0\t4944482\t0\t2019\t1\n2019-04-04\t151640\t0\t0\t0\t2019\t1\n2021-07-20\t152486\t0\t0\t0\t2019\t1\n2019-04-17\t154037\t0\t0\t0\t2019\t1\n2019-04-24\t154300\t0\t0\t0\t2019\t1\n2019-04-25\t155666\t0\t418023\t0\t2019\t1\n2019-04-10\t155711\t0\t0\t0\t2019\t1\n2019-06-03\t155844\t0\t554962\t0\t2019\t1\n2019-04-22\t163640\t0\t0\t0\t2019\t1\n2019-04-25\t164225\t0\t711430\t0\t2019\t1\n2019-04-16\t164540\t0\t0\t0\t2019\t1\n2019-04-17\t166038\t0\t0\t0\t2019\t1\n2019-07-05\t168281\t0\t0\t0\t2019\t1\n2019-06-11\t176514\t0\t971970\t0\t2019\t1\n2019-04-12\t177819\t0\t0\t0\t2019\t1\n2019-04-16\t182542\t0\t0\t0\t2019\t1\n2019-04-15\t185140\t0\t5542\t0\t2019\t1\n2019-04-22\t187816\t0\t70142\t0\t2019\t1\n2019-04-24\t192591\t0\t1110886\t0\t2019\t1\n2019-04-08\t192674\t0\t0\t0\t2019\t1\n2019-05-29\t171591\t0\t1391203\t0\t2019\t1\n2019-04-18\t178360\t0\t81851\t0\t2019\t1\n2019-04-24\t179067\t0\t751369\t0\t2019\t1\n2019-04-18\t180053\t0\t0\t0\t2019\t1\n2019-04-23\t182188\t0\t900\t0\t2019\t1\n2019-04-08\t184971\t0\t17097\t0\t2019\t1\n2021-06-25\t185048\t0\t4266778\t0\t2019\t1\n2019-09-26\t185562\t0\t4166434\t0\t2019\t1\n2019-12-17\t190131\t0\t0\t0\t2019\t1\n2019-04-24\t190832\t0\t57027\t0\t2019\t1\n2019-04-25\t194282\t0\t361651\t0\t2019\t1\n2019-08-07\t197874\t0\t1075344\t0\t2019\t1\n2019-04-24\t6508\t0\t624079\t0\t2019\t1\n2019-04-18\t8562\t0\t0\t0\t2019\t1\n2019-04-25\t14752\t0\t0\t0\t2019\t1\n2019-04-25\t19755\t0\t1170777\t0\t2019\t1\n2019-04-17\t22253\t0\t494378\t0\t2019\t1\n2019-04-04\t23321\t0\t0\t0\t2019\t1\n2019-04-24\t27331\t0\t6479777\t0\t2019\t1\n2019-04-23\t28200\t0\t0\t0\t2019\t1\n2019-04-25\t29986\t0\t211546\t0\t2019\t1\n2020-02-07\t33788\t0\t4632268\t0\t2019\t1\n2019-05-15\t40347\t0\t0\t0\t2019\t1\n2019-04-25\t49219\t0\t0\t0\t2019\t1\n2019-04-09\t49529\t0\t0\t0\t2019\t1\n2019-04-22\t51202\t0\t107811\t0\t2019\t1\n2019-04-09\t51532\t0\t0\t0\t2019\t1\n2019-04-24\t57862\t0\t103257\t0\t2019\t1\n2019-04-16\t58561\t0\t19456\t0\t2019\t1\n2019-04-06\t64108\t0\t0\t0\t2019\t1\n2019-04-24\t66578\t0\t459286\t0\t2019\t1\n2019-04-25\t68893\t0\t0\t0\t2019\t1\n2019-04-08\t69104\t0\t0\t0\t2019\t1\n2019-04-25\t70185\t0\t0\t0\t2019\t1\n2019-04-25\t73425\t0\t312185\t0\t2019\t1\n2019-04-11\t74552\t0\t0\t0\t2019\t1\n2019-04-15\t74555\t0\t0\t0\t2019\t1\n2019-04-25\t75942\t0\t1670\t0\t2019\t1\n2019-07-16\t76038\t0\t1052869\t0\t2019\t1\n2019-04-25\t80612\t0\t0\t0\t2019\t1\n2019-04-17\t82395\t0\t0\t0\t2019\t1\n2019-09-23\t87170\t0\t0\t0\t2019\t1\n2019-04-09\t89276\t0\t0\t0\t2019\t1\n2019-04-16\t90987\t0\t0\t0\t2019\t1\n2019-04-22\t91576\t0\t1581802\t0\t2019\t1\n2019-04-25\t91624\t0\t4434098\t0\t2019\t1\n2019-04-18\t93102\t0\t0\t0\t2019\t1\n2020-05-14\t101056\t0\t2175452\t0\t2019\t1\n2019-04-17\t102672\t0\t0\t0\t2019\t1\n2019-05-12\t111290\t0\t0\t0\t2019\t1\n2019-04-25\t112292\t0\t8824326\t0\t2019\t1\n2019-04-12\t112875\t0\t0\t0\t2019\t1\n2019-04-10\t120544\t0\t0\t0\t2019\t1\n2019-04-16\t121333\t0\t0\t0\t2019\t1\n2019-04-23\t123602\t0\t547036\t0\t2019\t1\n2019-04-06\t123720\t0\t627284\t0\t2019\t1\n2019-04-21\t127263\t0\t573870\t0\t2019\t1\n2019-10-18\t130282\t0\t0\t0\t2019\t1\n2019-04-11\t130408\t0\t0\t0\t2019\t1\n2019-04-02\t131231\t0\t0\t0\t2019\t1\n2019-04-22\t133613\t0\t750065\t0\t2019\t1\n2019-04-16\t134172\t0\t0\t0\t2019\t1\n2019-04-22\t134992\t0\t72846\t0\t2019\t1\n2019-04-24\t137060\t0\t0\t0\t2019\t1\n2019-04-09\t137913\t0\t0\t0\t2019\t1\n2019-04-02\t147315\t0\t0\t0\t2019\t1\n2019-06-14\t149744\t0\t0\t0\t2019\t1\n2019-04-25\t153296\t0\t0\t0\t2019\t1\n2019-04-20\t153417\t0\t0\t0\t2019\t1\n2019-04-09\t155259\t0\t0\t0\t2019\t1\n2019-04-24\t155715\t0\t377846\t0\t2019\t1\n2019-04-01\t157841\t0\t0\t0\t2019\t1\n2019-04-11\t162699\t0\t0\t0\t2019\t1\n2019-04-08\t162809\t0\t0\t0\t2019\t1\n2019-04-19\t163023\t0\t0\t0\t2019\t1\n2019-04-25\t163525\t0\t353276\t0\t2019\t1\n2019-04-24\t163700\t0\t1644021\t0\t2019\t1\n2019-04-23\t169768\t0\t0\t0\t2019\t1\n2019-04-25\t174060\t0\t660847\t0\t2019\t1\n2019-04-25\t176247\t0\t0\t0\t2019\t1\n2020-05-08\t177202\t0\t5330881\t0\t2019\t1\n2019-04-23\t183918\t0\t1644504\t0\t2019\t1\n2019-04-18\t184694\t0\t0\t0\t2019\t1\n2019-04-13\t187046\t0\t0\t0\t2019\t1\n2019-04-04\t188621\t0\t0\t0\t2019\t1\n2020-03-27\t189474\t0\t5003803\t0\t2019\t1\n2019-04-24\t193014\t0\t133449\t0\t2019\t1\n2019-04-26\t198803\t0\t0\t0\t2019\t1\n2019-04-17\t5888\t0\t351606\t0\t2019\t1\n2019-04-01\t7849\t0\t0\t0\t2019\t1\n2019-04-26\t14082\t0\t0\t0\t2019\t1\n2019-04-24\t14109\t0\t1666891\t0\t2019\t1\n2019-04-23\t23345\t0\t5828753\t0\t2019\t1\n2019-04-25\t27145\t0\t2470374\t0\t2019\t1\n2019-07-12\t28250\t0\t249420\t0\t2019\t1\n2019-04-12\t33639\t0\t0\t0\t2019\t1\n2019-04-24\t37060\t0\t0\t0\t2019\t1\n2020-08-20\t38005\t0\t122557\t0\t2019\t1\n2019-07-18\t40723\t0\t669979\t0\t2019\t1\n2019-04-15\t40872\t0\t0\t0\t2019\t1\n2019-04-09\t45868\t0\t0\t0\t2019\t1\n2019-04-10\t46149\t0\t0\t0\t2019\t1\n2019-04-02\t50687\t0\t0\t0\t2019\t1\n2019-04-04\t51359\t0\t0\t0\t2019\t1\n2019-04-19\t54225\t0\t27097\t0\t2019\t1\n2019-04-24\t57523\t0\t5952621\t0\t2019\t1\n2021-03-21\t61300\t0\t4999115\t0\t2019\t1\n2019-04-12\t61579\t0\t5373\t0\t2019\t1\n2019-04-16\t66200\t0\t0\t0\t2019\t1\n2019-04-25\t66456\t0\t114670\t0\t2019\t1\n2019-04-06\t66562\t0\t0\t0\t2019\t1\n2019-04-11\t77647\t0\t0\t0\t2019\t1\n2019-04-18\t79941\t0\t7487\t0\t2019\t1\n2019-04-18\t85211\t0\t0\t0\t2019\t1\n2019-04-23\t88331\t0\t0\t0\t2019\t1\n2019-06-13\t93291\t0\t1325869\t0\t2019\t1\n2019-04-17\t94760\t0\t147566\t0\t2019\t1\n2019-04-25\t96725\t0\t6024114\t0\t2019\t1\n2019-04-03\t103915\t0\t0\t0\t2019\t1\n2019-04-12\t110543\t0\t0\t0\t2019\t1\n2020-03-27\t111318\t0\t345641\t0\t2019\t1\n2019-04-16\t118640\t0\t199432\t0\t2019\t1\n2019-04-28\t121562\t0\t327796\t0\t2019\t1\n2019-04-25\t122329\t0\t155448\t0\t2019\t1\n2019-05-17\t123340\t0\t0\t0\t2019\t1\n2019-04-18\t125090\t0\t0\t0\t2019\t1\n2019-07-02\t125108\t0\t726653\t0\t2019\t1\n2019-04-23\t126138\t0\t66304\t0\t2019\t1\n2019-04-16\t130309\t0\t0\t0\t2019\t1\n2019-04-16\t131399\t0\t0\t0\t2019\t1\n2019-04-18\t136113\t0\t5256\t0\t2019\t1\n2019-04-16\t138371\t0\t0\t0\t2019\t1\n2019-04-12\t141953\t0\t0\t0\t2019\t1\n2021-06-21\t157189\t0\t261507682\t0\t2019\t1\n2019-04-19\t159152\t0\t1585016\t0\t2019\t1\n2019-04-06\t163381\t0\t0\t0\t2019\t1\n2019-04-25\t164018\t0\t0\t0\t2019\t1\n2019-04-25\t164420\t0\t524000\t0\t2019\t1\n2019-04-12\t165704\t0\t0\t0\t2019\t1\n2019-04-17\t167566\t0\t4647616\t0\t2019\t1\n2019-11-27\t168291\t0\t0\t0\t2019\t1\n2019-04-11\t168879\t0\t0\t0\t2019\t1\n2019-04-01\t170027\t0\t0\t0\t2019\t1\n2019-04-29\t170091\t0\t0\t0\t2019\t1\n2019-04-23\t170143\t0\t18691\t0\t2019\t1\n2019-04-01\t170153\t0\t0\t0\t2019\t1\n2019-04-04\t172428\t0\t0\t0\t2019\t1\n2019-06-25\t173050\t0\t1888488\t0\t2019\t1\n2019-04-11\t173731\t0\t0\t0\t2019\t1\n2019-08-18\t173845\t0\t5268520\t0\t2019\t1\n2019-04-23\t175499\t0\t0\t0\t2019\t1\n2019-04-12\t175760\t0\t0\t0\t2019\t1\n2019-04-20\t178809\t0\t283879\t0\t2019\t1\n2019-04-18\t186431\t0\t161227\t0\t2019\t1\n2019-04-24\t189455\t0\t0\t0\t2019\t1\n2019-04-25\t189675\t0\t1086773\t0\t2019\t1\n2019-04-30\t197279\t0\t0\t0\t2019\t1\n2019-04-23\t199016\t0\t29030\t0\t2019\t1\n2019-04-16\t199306\t0\t0\t0\t2019\t1\n2019-04-08\t199330\t0\t0\t0\t2019\t1\n2019-04-22\t4500\t0\t26772\t0\t2019\t1\n2019-04-25\t10219\t0\t310478\t0\t2019\t1\n2019-04-23\t10977\t0\t0\t0\t2019\t1\n2019-04-15\t12216\t0\t0\t0\t2019\t1\n2019-05-13\t12961\t0\t0\t0\t2019\t1\n2019-04-25\t14671\t0\t820685\t0\t2019\t1\n2019-04-17\t15850\t0\t96942\t0\t2019\t1\n2019-04-19\t19639\t0\t200721\t0\t2019\t1\n2019-04-16\t30780\t0\t0\t0\t2019\t1\n2019-04-25\t31998\t0\t0\t0\t2019\t1\n2019-05-20\t38363\t0\t0\t0\t2019\t1\n2019-04-16\t39335\t0\t1295\t0\t2019\t1\n2019-08-08\t39668\t0\t4948463\t0\t2019\t1\n2019-04-29\t41024\t0\t0\t0\t2019\t1\n2019-04-18\t42111\t0\t0\t0\t2019\t1\n2019-04-15\t50877\t0\t0\t0\t2019\t1\n2019-04-24\t50904\t0\t680104\t0\t2019\t1\n2019-04-22\t54071\t0\t0\t0\t2019\t1\n2019-04-26\t54445\t0\t0\t0\t2019\t1\n2019-04-18\t59796\t0\t0\t0\t2019\t1\n2019-04-25\t61352\t0\t9470457\t0\t2019\t1\n2019-04-22\t65446\t0\t1461303\t0\t2019\t1\n2019-04-03\t66329\t0\t0\t0\t2019\t1\n2019-04-08\t66700\t0\t0\t0\t2019\t1\n2019-05-30\t74946\t0\t2977757\t0\t2019\t1\n2019-08-23\t75407\t0\t912507\t0\t2019\t1\n2019-07-29\t78592\t0\t3106254\t0\t2019\t1\n2019-04-08\t78831\t0\t0\t0\t2019\t1\n2019-05-24\t81846\t0\t230500\t0\t2019\t1\n2019-04-24\t82253\t0\t7600\t0\t2019\t1\n2019-04-25\t84488\t0\t614577\t0\t2019\t1\n2019-04-24\t84818\t0\t644516\t0\t2019\t1\n2019-04-15\t85850\t0\t3996535\t0\t2019\t1\n2019-04-22\t90610\t0\t327038\t0\t2019\t1\n2019-04-18\t91807\t0\t0\t0\t2019\t1\n2019-04-24\t94592\t0\t0\t0\t2019\t1\n2019-04-24\t98183\t0\t35118\t0\t2019\t1\n2019-04-18\t101551\t0\t0\t0\t2019\t1\n2019-04-23\t102357\t0\t0\t0\t2019\t1\n2019-04-25\t103113\t0\t0\t0\t2019\t1\n2019-07-25\t111153\t0\t23631325\t0\t2019\t1\n2019-04-04\t113373\t0\t0\t0\t2019\t1\n2019-04-09\t113902\t0\t0\t0\t2019\t1\n2019-04-22\t116133\t0\t16948317\t0\t2019\t1\n2019-04-19\t118458\t0\t54917\t0\t2019\t1\n2019-11-27\t119247\t0\t670222\t0\t2019\t1\n2019-04-12\t121848\t0\t0\t0\t2019\t1\n2019-06-11\t122309\t0\t492013\t0\t2019\t1\n2019-04-08\t122552\t0\t111103\t0\t2019\t1\n2019-04-23\t123319\t0\t363547\t0\t2019\t1\n2019-04-12\t127602\t0\t0\t0\t2019\t1\n2019-04-15\t128773\t0\t0\t0\t2019\t1\n2019-04-17\t129674\t0\t0\t0\t2019\t1\n2019-05-07\t129994\t0\t0\t0\t2019\t1\n2019-04-25\t135524\t0\t1507626\t0\t2019\t1\n2019-04-22\t137837\t0\t0\t0\t2019\t1\n2019-07-24\t146225\t0\t344227\t0\t2019\t1\n2019-04-05\t147468\t0\t0\t0\t2019\t1\n2019-04-02\t147642\t0\t0\t0\t2019\t1\n2019-04-01\t148086\t0\t0\t0\t2019\t1\n2019-04-04\t160886\t0\t0\t0\t2019\t1\n2019-04-04\t162965\t0\t0\t0\t2019\t1\n2019-04-04\t165203\t0\t0\t0\t2019\t1\n2019-04-25\t170641\t0\t3731117\t0\t2019\t1\n2019-04-02\t172648\t0\t0\t0\t2019\t1\n2019-06-01\t178033\t0\t0\t0\t2019\t1\n2019-04-22\t183698\t0\t8000\t0\t2019\t1\n2019-04-16\t185479\t0\t27381\t0\t2019\t1\n2019-07-08\t186378\t0\t2729081\t0\t2019\t1\n2019-07-22\t186634\t0\t961484\t0\t2019\t1\n2019-04-24\t187589\t0\t585454\t0\t2019\t1\n2019-04-04\t188776\t0\t0\t0\t2019\t1\n2019-07-01\t190837\t0\t262935\t0\t2019\t1\n2019-04-24\t192520\t0\t583701\t0\t2019\t1\n2019-04-22\t194527\t0\t0\t0\t2019\t1\n2019-04-24\t195483\t0\t16456\t0\t2019\t1\n2019-04-25\t199204\t0\t841834\t0\t2019\t1\n2019-04-24\t7736\t0\t52369\t0\t2019\t1\n2019-04-25\t14325\t0\t9465275\t0\t2019\t1\n2019-04-24\t16258\t0\t1382718\t0\t2019\t1\n2019-07-11\t17674\t0\t240980\t0\t2019\t1\n2019-04-22\t23101\t0\t543473\t0\t2019\t1\n2019-04-12\t26045\t0\t0\t0\t2019\t1\n2019-04-16\t27820\t0\t5478\t0\t2019\t1\n2019-04-17\t31617\t0\t0\t0\t2019\t1\n2019-04-10\t46438\t0\t0\t0\t2019\t1\n2019-04-24\t51807\t0\t0\t0\t2019\t1\n2019-04-12\t54812\t0\t818948\t0\t2019\t1\n2019-04-15\t56247\t0\t0\t0\t2019\t1\n2019-04-22\t56898\t0\t0\t0\t2019\t1\n2019-06-10\t57148\t0\t3326812\t0\t2019\t1\n2019-04-26\t57441\t0\t0\t0\t2019\t1\n2021-04-23\t61293\t0\t7601623\t0\t2019\t1\n2019-04-08\t62977\t0\t0\t0\t2019\t1\n2019-04-13\t67437\t0\t980982\t0\t2019\t1\n2019-04-15\t67673\t0\t0\t0\t2019\t1\n2019-04-24\t67742\t0\t218\t0\t2019\t1\n2019-04-15\t72723\t0\t0\t0\t2019\t1\n2019-07-23\t74987\t0\t0\t0\t2019\t1\n2019-04-16\t79194\t0\t0\t0\t2019\t1\n2019-04-24\t90816\t0\t130290\t0\t2019\t1\n2019-04-13\t91676\t0\t0\t0\t2019\t1\n2019-04-19\t97115\t0\t0\t0\t2019\t1\n2019-04-19\t99144\t0\t0\t0\t2019\t1\n2019-10-28\t102652\t0\t1666621\t0\t2019\t1\n2019-07-15\t108600\t0\t233267\t0\t2019\t1\n2019-04-22\t121032\t0\t11798\t0\t2019\t1\n2019-04-08\t123904\t0\t0\t0\t2019\t1\n2019-06-06\t124864\t0\t0\t0\t2019\t1\n2019-04-05\t127151\t0\t0\t0\t2019\t1\n2019-04-09\t127213\t0\t0\t0\t2019\t1\n2019-09-20\t129069\t0\t0\t0\t2019\t1\n2019-04-15\t129079\t0\t0\t0\t2019\t1\n2019-04-11\t131156\t0\t0\t0\t2019\t1\n2019-07-24\t131901\t0\t1536460\t0\t2019\t1\n2019-04-09\t135086\t0\t0\t0\t2019\t1\n2019-04-15\t135479\t0\t4783\t0\t2019\t1\n2019-04-18\t136692\t0\t6308773\t0\t2019\t1\n2019-04-25\t138800\t0\t6576939\t0\t2019\t1\n2019-05-23\t140941\t0\t13458\t0\t2019\t1\n2019-04-24\t141027\t0\t0\t0\t2019\t1\n2020-09-18\t143101\t0\t3835426\t0\t2019\t1\n2019-04-02\t147704\t0\t0\t0\t2019\t1\n2019-06-06\t147960\t0\t752837\t0\t2019\t1\n2019-06-07\t151485\t0\t1430367\t0\t2019\t1\n2019-04-19\t152337\t0\t0\t0\t2019\t1\n2019-04-25\t153362\t0\t172309\t0\t2019\t1\n2019-05-20\t164211\t0\t69614\t0\t2019\t1\n2019-04-09\t164622\t0\t0\t0\t2019\t1\n2019-04-22\t167495\t0\t0\t0\t2019\t1\n2020-02-17\t168826\t0\t222696480\t0\t2019\t1\n2019-04-16\t172121\t0\t0\t0\t2019\t1\n2019-10-11\t183283\t0\t25041\t0\t2019\t1\n2019-04-22\t183308\t0\t355298\t0\t2019\t1\n2019-04-05\t185299\t0\t0\t0\t2019\t1\n2019-04-23\t186234\t0\t3456418\t0\t2019\t1\n2020-11-27\t188891\t0\t0\t0\t2019\t1\n2019-07-10\t199480\t0\t19689\t0\t2019\t1\n2019-04-25\t2852\t0\t0\t0\t2019\t1\n2019-04-24\t3424\t0\t17736\t0\t2019\t1\n2019-04-14\t7747\t0\t0\t0\t2019\t1\n2019-04-25\t9164\t0\t0\t0\t2019\t1\n2019-04-18\t14153\t0\t28912\t0\t2019\t1\n2019-04-12\t14554\t0\t0\t0\t2019\t1\n2019-04-25\t16149\t0\t124288\t0\t2019\t1\n2019-04-01\t16972\t0\t0\t0\t2019\t1\n2019-04-12\t17653\t0\t0\t0\t2019\t1\n2020-04-17\t18565\t0\t1257138\t0\t2019\t1\n2019-07-05\t21473\t0\t5538\t0\t2019\t1\n2019-04-24\t22600\t0\t2289527\t0\t2019\t1\n2019-04-15\t23102\t0\t0\t0\t2019\t1\n2019-04-25\t34960\t0\t315679\t0\t2019\t1\n2019-05-21\t37214\t0\t27813\t0\t2019\t1\n2019-04-25\t44520\t0\t1611087\t0\t2019\t1\n2021-01-15\t44986\t0\t741364\t0\t2019\t1\n2019-04-15\t49535\t0\t0\t0\t2019\t1\n2019-04-25\t49659\t0\t15966149\t0\t2019\t1\n2019-04-16\t49695\t0\t0\t0\t2019\t1\n2019-04-24\t50104\t0\t1458407\t0\t2019\t1\n2019-04-08\t51161\t0\t0\t0\t2019\t1\n2019-04-24\t51290\t0\t0\t0\t2019\t1\n2019-04-24\t52643\t0\t1788757\t0\t2019\t1\n2019-04-17\t56171\t0\t0\t0\t2019\t1\n2019-04-29\t57121\t0\t0\t0\t2019\t1\n2019-04-10\t59363\t0\t0\t0\t2019\t1\n2019-04-24\t66532\t0\t451625\t0\t2019\t1\n2019-04-23\t72166\t0\t3535578\t0\t2019\t1\n2019-07-23\t73671\t0\t2631953\t0\t2019\t1\n2019-04-13\t76457\t0\t0\t0\t2019\t1\n2019-05-17\t79221\t0\t204484\t0\t2019\t1\n2020-03-19\t83628\t0\t9204915\t0\t2019\t1\n2019-04-24\t87565\t0\t8246235\t0\t2019\t1\n2019-07-17\t89136\t0\t9401148\t0\t2019\t1\n2019-04-23\t91271\t0\t44460\t0\t2019\t1\n2019-04-25\t96485\t0\t267942\t0\t2019\t1\n2019-04-23\t98655\t0\t591837\t0\t2019\t1\n2019-05-14\t103162\t0\t365793\t0\t2019\t1\n2019-04-16\t105702\t0\t68651\t0\t2019\t1\n2019-04-25\t107011\t0\t18829\t0\t2019\t1\n2019-04-11\t111292\t0\t0\t0\t2019\t1\n2019-08-26\t115774\t0\t3650850\t0\t2019\t1\n2019-04-03\t121191\t0\t0\t0\t2019\t1\n2019-04-24\t123001\t0\t561778\t0\t2019\t1\n2019-04-23\t123043\t0\t0\t0\t2019\t1\n2019-04-24\t123054\t0\t16075633\t0\t2019\t1\n2019-04-08\t127510\t0\t0\t0\t2019\t1\n2019-04-22\t132696\t0\t89308\t0\t2019\t1\n2019-04-26\t139816\t0\t264955\t0\t2019\t1\n2019-10-08\t141325\t0\t18030651\t0\t2019\t1\n2019-04-25\t141470\t0\t453170\t0\t2019\t1\n2019-04-10\t143566\t0\t0\t0\t2019\t1\n2019-04-15\t146666\t0\t198074\t0\t2019\t1\n2019-04-25\t158737\t0\t343804\t0\t2019\t1\n2019-04-23\t160274\t0\t0\t0\t2019\t1\n2019-04-12\t165754\t0\t0\t0\t2019\t1\n2019-04-11\t175869\t0\t22726\t0\t2019\t1\n2019-04-25\t179346\t0\t1469865\t0\t2019\t1\n2019-04-20\t180076\t0\t0\t0\t2019\t1\n2019-04-12\t183313\t0\t0\t0\t2019\t1\n2019-04-22\t191231\t0\t3219824\t0\t2019\t1\n2019-04-23\t192993\t0\t29556\t0\t2019\t1\n2019-04-24\t198240\t0\t1480111\t0\t2019\t1\n2019-04-25\t199467\t0\t0\t0\t2019\t1\n2019-06-30\t757\t0\t378688\t0\t2019\t1\n2019-04-16\t24551\t0\t0\t0\t2019\t1\n2019-04-05\t35083\t0\t0\t0\t2019\t1\n2019-04-24\t42047\t0\t2526999\t0\t2019\t1\n2019-04-24\t44356\t0\t3524062\t0\t2019\t1\n2019-04-15\t51729\t0\t0\t0\t2019\t1\n2019-04-15\t54165\t0\t819256\t0\t2019\t1\n2019-04-09\t58424\t0\t0\t0\t2019\t1\n2019-04-25\t59025\t0\t349985\t0\t2019\t1\n2019-04-25\t68043\t0\t10776034\t0\t2019\t1\n2019-04-25\t69881\t0\t0\t0\t2019\t1\n2019-04-12\t77521\t0\t0\t0\t2019\t1\n2019-04-05\t77988\t0\t0\t0\t2019\t1\n2019-04-19\t80835\t0\t0\t0\t2019\t1\n2019-04-18\t87151\t0\t0\t0\t2019\t1\n2019-04-10\t87323\t0\t0\t0\t2019\t1\n2019-04-25\t90697\t0\t5588036\t0\t2019\t1\n2019-04-25\t93671\t0\t0\t0\t2019\t1\n2019-06-24\t98061\t0\t355075\t0\t2019\t1\n2019-04-14\t98987\t0\t0\t0\t2019\t1\n2019-04-24\t99174\t0\t2320373\t0\t2019\t1\n2019-06-03\t101558\t0\t666992\t0\t2019\t1\n2019-05-21\t104498\t0\t0\t0\t2019\t1\n2019-04-22\t105133\t0\t78393\t0\t2019\t1\n2019-04-12\t105238\t0\t0\t0\t2019\t1\n2019-04-24\t108679\t0\t965121\t0\t2019\t1\n2019-04-11\t109471\t0\t0\t0\t2019\t1\n2019-04-18\t113281\t0\t1209952\t0\t2019\t1\n2019-04-21\t113950\t0\t15910\t0\t2019\t1\n2019-04-12\t121854\t0\t0\t0\t2019\t1\n2019-04-03\t121954\t0\t0\t0\t2019\t1\n2019-04-03\t125192\t0\t0\t0\t2019\t1\n2019-04-24\t127218\t0\t629783\t0\t2019\t1\n2019-04-24\t127524\t0\t698159\t0\t2019\t1\n2019-06-05\t135647\t0\t0\t0\t2019\t1\n2019-04-02\t137963\t0\t0\t0\t2019\t1\n2019-04-23\t138559\t0\t0\t0\t2019\t1\n2021-06-08\t139319\t0\t688376\t0\t2019\t1\n2019-06-25\t140461\t0\t16040179\t0\t2019\t1\n2019-06-20\t141843\t0\t276863\t0\t2019\t1\n2019-04-24\t145244\t0\t0\t0\t2019\t1\n2019-06-11\t148280\t0\t30077\t0\t2019\t1\n2019-04-02\t155684\t0\t0\t0\t2019\t1\n2019-11-11\t160244\t0\t3806838\t0\t2019\t1\n2019-04-25\t165448\t0\t0\t0\t2019\t1\n2019-04-25\t167172\t0\t92416\t0\t2019\t1\n2020-05-06\t169094\t0\t740659\t0\t2019\t1\n2019-06-04\t170353\t0\t5134378\t0\t2019\t1\n2020-10-16\t173051\t0\t0\t0\t2019\t1\n2019-04-22\t178208\t0\t0\t0\t2019\t1\n2019-04-08\t179360\t0\t0\t0\t2019\t1\n2019-04-25\t181156\t0\t117161\t0\t2019\t1\n2019-04-22\t181937\t0\t0\t0\t2019\t1\n2019-04-22\t182594\t0\t26829\t0\t2019\t1\n2019-10-25\t185822\t0\t9145504\t0\t2019\t1\n2019-04-08\t189483\t0\t0\t0\t2019\t1\n2019-04-24\t195697\t0\t1994603\t0\t2019\t1\n2019-04-12\t196462\t0\t0\t0\t2019\t1\n2019-08-06\t3328\t0\t674697\t0\t2019\t1\n2019-04-24\t5128\t0\t87430\t0\t2019\t1\n2019-04-23\t6743\t0\t0\t0\t2019\t1\n2019-04-25\t11152\t0\t0\t0\t2019\t1\n2019-04-18\t14417\t0\t582703\t0\t2019\t1\n2019-09-27\t19500\t0\t16474\t0\t2019\t1\n2019-04-22\t23480\t0\t5645009\t0\t2019\t1\n2019-04-17\t32398\t0\t2545309\t0\t2019\t1\n2019-06-10\t35242\t0\t2625427\t0\t2019\t1\n2019-04-03\t40449\t0\t0\t0\t2019\t1\n2019-04-02\t41442\t0\t0\t0\t2019\t1\n2019-04-20\t43590\t0\t0\t0\t2019\t1\n2019-04-25\t44463\t0\t23670\t0\t2019\t1\n2019-04-17\t47141\t0\t0\t0\t2019\t1\n2019-04-22\t49890\t0\t42922\t0\t2019\t1\n2019-04-16\t49999\t0\t0\t0\t2019\t1\n2019-04-04\t51018\t0\t0\t0\t2019\t1\n2019-04-19\t57880\t0\t0\t0\t2019\t1\n2019-10-22\t57980\t0\t4126081\t0\t2019\t1\n2019-04-17\t62419\t0\t0\t0\t2019\t1\n2020-03-24\t65893\t0\t13530789\t0\t2019\t1\n2019-04-08\t67628\t0\t0\t0\t2019\t1\n2019-04-23\t68421\t0\t0\t0\t2019\t1\n2019-04-16\t68564\t0\t66236\t0\t2019\t1\n2019-04-02\t70906\t0\t0\t0\t2019\t1\n2019-06-24\t74536\t0\t49792817\t0\t2019\t1\n2019-04-29\t75435\t0\t185522\t0\t2019\t1\n2019-04-14\t76527\t0\t0\t0\t2019\t1\n2019-04-05\t76993\t0\t0\t0\t2019\t1\n2019-04-05\t77111\t0\t0\t0\t2019\t1\n2019-04-16\t88709\t0\t273409\t0\t2019\t1\n2019-04-25\t88928\t0\t1346949\t0\t2019\t1\n2019-06-19\t90853\t0\t724619\t0\t2019\t1\n2019-10-23\t92235\t0\t349559\t0\t2019\t1\n2019-04-01\t92243\t0\t0\t0\t2019\t1\n2019-12-02\t99140\t0\t3788549\t0\t2019\t1\n2019-04-10\t100275\t0\t0\t0\t2019\t1\n2019-04-24\t103498\t0\t33481027\t0\t2019\t1\n2019-04-24\t106727\t0\t4620425\t0\t2019\t1\n2019-04-17\t107374\t0\t711479\t0\t2019\t1\n2019-04-22\t111572\t0\t548200\t0\t2019\t1\n2019-04-25\t112444\t0\t0\t0\t2019\t1\n2019-04-25\t113036\t0\t5744\t0\t2019\t1\n2019-04-21\t115379\t0\t147969\t0\t2019\t1\n2019-04-04\t116327\t0\t0\t0\t2019\t1\n2019-04-12\t121711\t0\t0\t0\t2019\t1\n2019-04-19\t123862\t0\t25587857\t0\t2019\t1\n2019-04-08\t125397\t0\t0\t0\t2019\t1\n2019-04-08\t126104\t0\t0\t0\t2019\t1\n2019-04-08\t128294\t0\t0\t0\t2019\t1\n2019-04-23\t130350\t0\t703304\t0\t2019\t1\n2019-06-07\t135881\t0\t23393\t0\t2019\t1\n2019-04-09\t135932\t0\t0\t0\t2019\t1\n2019-04-25\t136974\t0\t975275\t0\t2019\t1\n2019-04-24\t137542\t0\t15433567\t0\t2019\t1\n2019-04-12\t138381\t0\t0\t0\t2019\t1\n2019-04-24\t139714\t0\t164521\t0\t2019\t1\n2019-04-19\t144703\t0\t22487\t0\t2019\t1\n2019-04-24\t152252\t0\t45471\t0\t2019\t1\n2019-04-25\t157963\t0\t0\t0\t2019\t1\n2019-04-24\t161400\t0\t98343\t0\t2019\t1\n2019-04-08\t162372\t0\t0\t0\t2019\t1\n2020-12-04\t170793\t0\t0\t0\t2019\t1\n2019-04-02\t172379\t0\t74869\t0\t2019\t1\n2019-04-19\t173306\t0\t0\t0\t2019\t1\n2019-04-06\t173526\t0\t0\t0\t2019\t1\n2019-04-25\t175701\t0\t0\t0\t2019\t1\n2019-06-13\t178719\t0\t225552\t0\t2019\t1\n2019-04-24\t182654\t0\t2749772\t0\t2019\t1\n2019-06-27\t185668\t0\t0\t0\t2019\t1\n2019-04-18\t190236\t0\t0\t0\t2019\t1\n2019-04-22\t190237\t0\t2475\t0\t2019\t1\n2019-04-17\t191848\t0\t205\t0\t2019\t1\n2019-04-11\t193067\t0\t0\t0\t2019\t1\n2019-04-15\t194456\t0\t13195\t0\t2019\t1\n2019-07-10\t107154\t0\t32043621\t0\t2019\t1\n2019-04-22\t113182\t0\t0\t0\t2019\t1\n2019-12-25\t117043\t0\t1966456\t0\t2019\t1\n2020-01-27\t117339\t0\t3287317\t0\t2019\t1\n2019-04-15\t119356\t0\t0\t0\t2019\t1\n2019-04-23\t119763\t0\t776375\t0\t2019\t1\n2020-02-08\t124334\t0\t76563632\t0\t2019\t1\n2019-04-10\t126026\t0\t0\t0\t2019\t1\n2019-08-07\t132463\t0\t0\t0\t2019\t1\n2019-04-22\t135162\t0\t0\t0\t2019\t1\n2019-07-15\t135672\t0\t442475\t0\t2019\t1\n2019-04-05\t139392\t0\t0\t0\t2019\t1\n2019-04-20\t141311\t0\t0\t0\t2019\t1\n2019-04-17\t144839\t0\t24633\t0\t2019\t1\n2020-04-22\t147354\t0\t12519198\t0\t2019\t1\n2019-04-10\t148151\t0\t0\t0\t2019\t1\n2019-04-25\t149719\t0\t2337977\t0\t2019\t1\n2019-04-24\t151943\t0\t0\t0\t2019\t1\n2019-04-10\t153853\t0\t0\t0\t2019\t1\n2019-06-04\t157797\t0\t20281\t0\t2019\t1\n2019-04-23\t160328\t0\t36790\t0\t2019\t1\n2019-06-27\t160440\t0\t0\t0\t2019\t1\n2019-04-12\t161660\t0\t0\t0\t2019\t1\n2019-04-21\t162872\t0\t0\t0\t2019\t1\n2019-04-12\t163301\t0\t0\t0\t2019\t1\n2019-04-22\t165329\t0\t4934\t0\t2019\t1\n2019-04-22\t166287\t0\t1379715\t0\t2019\t1\n2019-04-12\t166353\t0\t28528\t0\t2019\t1\n2019-04-23\t171569\t0\t4020387\t0\t2019\t1\n2019-04-19\t174115\t0\t0\t0\t2019\t1\n2020-01-14\t178352\t0\t10379\t0\t2019\t1\n2019-04-25\t182567\t0\t0\t0\t2019\t1\n2019-04-22\t183735\t0\t0\t0\t2019\t1\n2019-04-22\t192430\t0\t0\t0\t2019\t1\n2019-04-23\t194291\t0\t0\t0\t2019\t1\n2019-04-25\t10404\t0\t0\t0\t2019\t1\n2019-10-29\t14433\t0\t1421960\t0\t2019\t1\n2019-04-25\t19979\t0\t1088908\t0\t2019\t1\n2019-04-08\t20544\t0\t10654\t0\t2019\t1\n2019-04-25\t21095\t0\t283434\t0\t2019\t1\n2020-03-27\t27569\t0\t1079104\t0\t2019\t1\n2019-04-25\t30469\t0\t301160\t0\t2019\t1\n2019-10-16\t30935\t0\t0\t0\t2019\t1\n2019-04-11\t31957\t0\t2157\t0\t2019\t1\n2019-06-06\t31999\t0\t535070\t0\t2019\t1\n2019-04-25\t40482\t0\t288161\t0\t2019\t1\n2019-12-23\t41420\t0\t1682051\t0\t2019\t1\n2019-04-22\t43601\t0\t1811809\t0\t2019\t1\n2021-03-11\t45374\t0\t4909340\t0\t2019\t1\n2019-04-23\t53138\t0\t0\t0\t2019\t1\n2019-04-04\t56394\t0\t0\t0\t2019\t1\n2019-04-05\t58411\t0\t0\t0\t2019\t1\n2019-04-12\t67256\t0\t0\t0\t2019\t1\n2019-04-10\t68680\t0\t0\t0\t2019\t1\n2019-06-23\t68964\t0\t983255\t0\t2019\t1\n2019-04-15\t72534\t0\t0\t0\t2019\t1\n2019-10-15\t73854\t0\t1605239\t0\t2019\t1\n2019-04-25\t74374\t0\t0\t0\t2019\t1\n2019-04-19\t74845\t0\t0\t0\t2019\t1\n2019-04-17\t76830\t0\t0\t0\t2019\t1\n2019-04-24\t78449\t0\t941243\t0\t2019\t1\n2019-04-18\t93174\t0\t0\t0\t2019\t1\n2019-04-24\t99020\t0\t5871598\t0\t2019\t1\n2019-04-19\t100962\t0\t0\t0\t2019\t1\n2019-04-25\t105200\t0\t909707\t0\t2019\t1\n2019-04-07\t108111\t0\t0\t0\t2019\t1\n2019-04-25\t110294\t0\t93855\t0\t2019\t1\n2019-04-24\t110624\t0\t5850581\t0\t2019\t1\n2019-07-22\t112584\t0\t2500\t0\t2019\t1\n2019-04-22\t113988\t0\t243565\t0\t2019\t1\n2019-06-10\t125203\t0\t7278723\t0\t2019\t1\n2019-12-12\t128944\t0\t1738\t0\t2019\t1\n2021-06-30\t132111\t0\t4487\t0\t2019\t1\n2019-09-06\t132356\t0\t116448\t0\t2019\t1\n2019-04-16\t133181\t0\t1027323\t0\t2019\t1\n2019-04-20\t136896\t0\t0\t0\t2019\t1\n2019-04-25\t141779\t0\t0\t0\t2019\t1\n2019-04-22\t143105\t0\t0\t0\t2019\t1\n2019-04-24\t143398\t0\t27163222\t0\t2019\t1\n2019-04-24\t145578\t0\t1024306\t0\t2019\t1\n2019-08-16\t148183\t0\t9944102\t0\t2019\t1\n2019-04-24\t148965\t0\t837656\t0\t2019\t1\n2019-04-11\t150739\t0\t0\t0\t2019\t1\n2019-04-24\t151279\t0\t82560\t0\t2019\t1\n2019-04-22\t156563\t0\t1618734\t0\t2019\t1\n2019-04-11\t164840\t0\t0\t0\t2019\t1\n2019-04-12\t165659\t0\t0\t0\t2019\t1\n2019-05-11\t169368\t0\t0\t0\t2019\t1\n2020-01-23\t171407\t0\t42661085\t0\t2019\t1\n2019-04-10\t172392\t0\t0\t0\t2019\t1\n2019-04-04\t172481\t0\t0\t0\t2019\t1\n2019-04-25\t174798\t0\t17573920\t0\t2019\t1\n2019-04-12\t177827\t0\t0\t0\t2019\t1\n2019-04-12\t179261\t0\t0\t0\t2019\t1\n2019-04-18\t180680\t0\t0\t0\t2019\t1\n2019-04-19\t181643\t0\t133913\t0\t2019\t1\n2019-04-18\t182302\t0\t68704\t0\t2019\t1\n2020-03-26\t183467\t0\t504854\t0\t2019\t1\n2019-04-22\t186885\t0\t27857\t0\t2019\t1\n2019-04-19\t187548\t0\t253038\t0\t2019\t1\n2019-04-23\t194143\t0\t22471\t0\t2019\t1\n2019-04-17\t195191\t0\t0\t0\t2019\t1\n2019-04-25\t195859\t0\t0\t0\t2019\t1\n2019-04-23\t197294\t0\t4079813\t0\t2019\t1\n2019-04-03\t484\t0\t0\t0\t2019\t1\n2019-04-21\t4360\t0\t0\t0\t2019\t1\n2019-04-23\t4936\t0\t145490\t0\t2019\t1\n2019-04-25\t8966\t0\t627493\t0\t2019\t1\n2019-04-04\t13081\t0\t0\t0\t2019\t1\n2019-04-25\t21407\t0\t0\t0\t2019\t1\n2019-04-25\t22054\t0\t2156375\t0\t2019\t1\n2019-04-25\t23771\t0\t13634644\t0\t2019\t1\n2019-08-12\t25052\t0\t708516\t0\t2019\t1\n2019-04-22\t28407\t0\t79973\t0\t2019\t1\n2019-04-25\t33871\t0\t83973\t0\t2019\t1\n2019-04-15\t34172\t0\t148039\t0\t2019\t1\n2019-04-10\t35035\t0\t0\t0\t2019\t1\n2019-04-17\t42611\t0\t0\t0\t2019\t1\n2019-04-12\t45227\t0\t0\t0\t2019\t1\n2019-07-03\t47375\t0\t19179\t0\t2019\t1\n2019-04-01\t58091\t0\t0\t0\t2019\t1\n2019-04-04\t58227\t0\t0\t0\t2019\t1\n2019-04-24\t65230\t0\t171259\t0\t2019\t1\n2019-04-23\t65638\t0\t0\t0\t2019\t1\n2019-04-11\t65652\t0\t0\t0\t2019\t1\n2019-04-20\t66883\t0\t15717\t0\t2019\t1\n2019-04-23\t68554\t0\t0\t0\t2019\t1\n2019-06-10\t68578\t0\t2086571\t0\t2019\t1\n2019-10-15\t80812\t0\t2654832\t0\t2019\t1\n2019-04-15\t85942\t0\t0\t0\t2019\t1\n2019-04-19\t94803\t0\t0\t0\t2019\t1\n2019-04-23\t96476\t0\t2101\t0\t2019\t1\n2019-10-29\t97472\t0\t0\t0\t2019\t1\n2019-04-04\t103210\t0\t0\t0\t2019\t1\n2019-04-25\t103609\t0\t0\t0\t2019\t1\n2019-06-04\t104459\t0\t0\t0\t2019\t1\n2019-04-19\t106448\t0\t204229\t0\t2019\t1\n2020-11-12\t106574\t0\t0\t0\t2019\t1\n2019-04-12\t106783\t0\t0\t0\t2019\t1\n2019-12-18\t109637\t0\t2161680\t0\t2019\t1\n2019-04-22\t125409\t0\t0\t0\t2019\t1\n2020-08-31\t127962\t0\t3254378\t0\t2019\t1\n2019-04-16\t131075\t0\t777394\t0\t2019\t1\n2019-07-20\t131698\t0\t536598\t0\t2019\t1\n2019-04-17\t137602\t0\t0\t0\t2019\t1\n2019-04-24\t138893\t0\t0\t0\t2019\t1\n2019-04-05\t139535\t0\t0\t0\t2019\t1\n2019-04-09\t139661\t0\t0\t0\t2019\t1\n2019-05-27\t141083\t0\t3656591\t0\t2019\t1\n2019-08-07\t142054\t0\t0\t0\t2019\t1\n2019-04-24\t142740\t0\t1677018\t0\t2019\t1\n2019-07-24\t144503\t0\t6617229\t0\t2019\t1\n2019-04-12\t145581\t0\t11835\t0\t2019\t1\n2019-04-23\t153158\t0\t390492\t0\t2019\t1\n2019-07-17\t159729\t0\t25861893\t0\t2019\t1\n2019-04-25\t160271\t0\t325417\t0\t2019\t1\n2019-04-17\t161766\t0\t0\t0\t2019\t1\n2021-04-29\t164782\t0\t4987066\t0\t2019\t1\n2019-04-25\t164941\t0\t16\t0\t2019\t1\n2019-04-04\t167029\t0\t0\t0\t2019\t1\n2019-04-08\t178494\t0\t1109091\t0\t2019\t1\n2019-04-11\t178776\t0\t0\t0\t2019\t1\n2019-04-25\t180055\t0\t125935\t0\t2019\t1\n2020-05-26\t181273\t0\t9063064\t0\t2019\t1\n2019-06-26\t184607\t0\t18413016\t0\t2019\t1\n2019-04-09\t186853\t0\t0\t0\t2019\t1\n2019-04-25\t187292\t0\t16235\t0\t2019\t1\n2019-04-25\t187753\t0\t3490\t0\t2019\t1\n2019-04-25\t188923\t0\t0\t0\t2019\t1\n2019-04-25\t189695\t0\t165562\t0\t2019\t1\n2019-04-23\t193117\t0\t2954641\t0\t2019\t1\n2019-04-25\t188154\t0\t8372212\t0\t2019\t1\n2019-04-01\t191664\t0\t0\t0\t2019\t1\n2019-04-29\t199609\t0\t0\t0\t2019\t1\n2019-04-18\t10860\t0\t0\t0\t2019\t1\n2019-04-25\t16142\t0\t10679156\t0\t2019\t1\n2019-04-12\t20972\t0\t0\t0\t2019\t1\n2019-04-04\t21634\t0\t0\t0\t2019\t1\n2019-04-25\t25307\t0\t203693\t0\t2019\t1\n2019-04-25\t26829\t0\t1714769\t0\t2019\t1\n2020-02-28\t31513\t0\t0\t0\t2019\t1\n2019-04-25\t33503\t0\t2026085\t0\t2019\t1\n2019-04-25\t34294\t0\t279570\t0\t2019\t1\n2019-04-23\t37585\t0\t0\t0\t2019\t1\n2020-05-20\t40776\t0\t36364749\t0\t2019\t1\n2019-04-23\t43539\t0\t83962\t0\t2019\t1\n2019-04-25\t44266\t0\t374585\t0\t2019\t1\n2019-04-25\t48439\t0\t205140\t0\t2019\t1\n2019-04-04\t49542\t0\t0\t0\t2019\t1\n2019-04-16\t51284\t0\t484758\t0\t2019\t1\n2019-04-19\t51292\t0\t0\t0\t2019\t1\n2019-04-12\t52767\t0\t0\t0\t2019\t1\n2019-04-20\t52875\t0\t762332\t0\t2019\t1\n2020-12-30\t52990\t0\t63871435\t0\t2019\t1\n2019-04-23\t55703\t0\t3119136\t0\t2019\t1\n2019-04-15\t57101\t0\t0\t0\t2019\t1\n2020-03-04\t57298\t0\t0\t0\t2019\t1\n2019-06-03\t58404\t0\t0\t0\t2019\t1\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1678639961421_1404165888",
+      "id": "paragraph_1678639961421_1404165888",
+      "dateCreated": "2023-03-12 16:52:41.421",
+      "dateStarted": "2023-03-19 15:30:21.260",
+      "dateFinished": "2023-03-19 15:30:21.504",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\n\nhadoop fs -put /data/vsa_nd_nds_r1.csv /\nhadoop fs -put /data/vsa_nd_nds_r3.csv /\nhadoop fs -ls /",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 15:30:24.148",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false,
+          "language": "sh"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "SLF4J: Class path contains multiple SLF4J bindings.\nSLF4J: Found binding in [jar:file:/usr/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: Found binding in [jar:file:/usr/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\nSLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]\n2023-03-19 15:30:24,861 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\nSLF4J: Class path contains multiple SLF4J bindings.\nSLF4J: Found binding in [jar:file:/usr/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: Found binding in [jar:file:/usr/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\nSLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]\n2023-03-19 15:30:26,438 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\nSLF4J: Class path contains multiple SLF4J bindings.\nSLF4J: Found binding in [jar:file:/usr/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: Found binding in [jar:file:/usr/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\nSLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]\n2023-03-19 15:30:27,974 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\nFound 6 items\ndrwxr-xr-x   - root supergroup          0 2023-03-19 15:28 /log\ndrwxr-xr-x   - root supergroup          0 2023-03-19 15:28 /spark-jars\ndrwxrwx---   - root supergroup          0 2023-03-19 15:28 /tmp\ndrwxr-xr-x   - root supergroup          0 2023-03-19 15:29 /usr\n-rw-r--r--   2 root supergroup      35697 2023-03-19 15:30 /vsa_nd_nds_r1.csv\n-rw-r--r--   2 root supergroup      33577 2023-03-19 15:30 /vsa_nd_nds_r3.csv\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1679238837149_359258871",
+      "id": "paragraph_1679238837149_359258871",
+      "dateCreated": "2023-03-19 15:13:57.149",
+      "dateStarted": "2023-03-19 15:30:24.158",
+      "dateFinished": "2023-03-19 15:30:28.735",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%spark\n\nval df_vsa_nd_nds_r1 \u003d spark.read.format(\"csv\").option(\"header\", \"true\").load(\"/vsa_nd_nds_r1.csv\")\nval df_vsa_nd_nds_r3 \u003d spark.read.format(\"csv\").option(\"header\", \"true\").load(\"/vsa_nd_nds_r3.csv\")",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 15:30:33.315",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "language": "scala",
+          "completionKey": "TAB"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u001b[1m\u001b[34mdf_vsa_nd_nds_r1\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m \u003d [code_period: string, code_present_place: string ... 5 more fields]\n\u001b[1m\u001b[34mdf_vsa_nd_nds_r3\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m \u003d [date_creation: string, fid: string ... 5 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://zeppelin:4040/jobs/job?id\u003d0"
+            },
+            {
+              "jobUrl": "http://zeppelin:4040/jobs/job?id\u003d1"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1678640408844_1367695897",
+      "id": "paragraph_1678640408844_1367695897",
+      "dateCreated": "2023-03-12 17:00:08.844",
+      "dateStarted": "2023-03-19 15:30:33.323",
+      "dateFinished": "2023-03-19 15:31:00.085",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%spark\ndf_vsa_nd_nds_r1.show()\ndf_vsa_nd_nds_r3.show()",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 15:30:38.788",
+      "progress": 0,
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "language": "scala",
+          "completionKey": "TAB"
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-----------+------------------+------------+------+--------+----+-------+\n|code_period|code_present_place|date_receipt|   fid|     s40|year|quarter|\n+-----------+------------------+------------+------+--------+----+-------+\n|         21|               214|  2019-04-08| 11899|       0|2015|      1|\n|         22|               214|  2019-04-08| 11899|       0|2015|      2|\n|         23|               214|  2019-04-08| 11899|       0|2015|      3|\n|         24|               214|  2019-04-08| 11899|       0|2015|      4|\n|         22|               214|  2019-07-10|149602|  405610|2017|      2|\n|         22|               214|  2019-07-12| 82269|       0|2017|      2|\n|         23|               214|  2019-07-12|106026|  117059|2017|      3|\n|         23|               214|  2019-07-11| 39704|   65306|2017|      3|\n|         24|               214|  2019-07-10| 35149|12858067|2017|      4|\n|         24|               214|  2019-07-11|193190|   86637|2017|      4|\n|         24|               214|  2019-07-15| 10489|  110277|2017|      4|\n|         24|               214|  2019-07-15|152416|   63577|2017|      4|\n|         24|               214|  2019-07-10|180488|       0|2017|      4|\n|         21|               214|  2019-07-12| 82269|       0|2018|      1|\n|         21|               214|  2019-07-09|185686|       0|2018|      1|\n|         21|               214|  2019-07-09|114900| 5896908|2018|      1|\n|         21|               214|  2019-07-12|106026|  212444|2018|      1|\n|         21|               214|  2019-07-15|152170|  236054|2018|      1|\n|         22|               214|  2019-07-15| 73865|    3396|2018|      2|\n|         22|               214|  2019-07-09|185686| 5308250|2018|      2|\n+-----------+------------------+------------+------+--------+----+-------+\nonly showing top 20 rows\n\n+-------------+------+------+--------+----+----+-------+\n|date_creation|   fid|s109_5|  s120_3|s3_5|year|quarter|\n+-------------+------+------+--------+----+----+-------+\n|   2019-04-08| 11899|     0|       0|   0|2015|      2|\n|   2019-04-08| 11899|     0|       0|   0|2015|      3|\n|   2019-04-08| 11899|     0|       0|   0|2015|      4|\n|   2019-07-08|106026|     0| 1082400|   0|2017|      1|\n|   2019-07-12| 82269|     0|       0|   0|2017|      1|\n|   2019-07-08|106026|     0| 1868545|   0|2017|      2|\n|   2019-07-11|193190|     0|28288808|   0|2017|      2|\n|   2019-07-14| 90996|     0| 2191171|   0|2017|      2|\n|   2019-07-15| 45889|     0| 1933725|   0|2017|      2|\n|   2019-07-12| 82269|     0|       0|   0|2017|      2|\n|   2019-07-10|149602|     0|  277988|   0|2017|      2|\n|   2019-07-15|101648|     0|10353540|   0|2017|      3|\n|   2019-07-12|168670|     0| 2123756|   0|2017|      3|\n|   2019-07-12| 82269|     0|       0|   0|2017|      3|\n|   2019-07-08|106026|     0| 5899028|   0|2017|      3|\n|   2019-07-11| 39704|     0| 3006095|   0|2017|      3|\n|   2019-07-11| 60575|     0|  392507|   0|2017|      3|\n|   2019-07-12|168670|     0| 2578450|   0|2017|      4|\n|   2019-07-12| 82269|     0|       0|   0|2017|      4|\n|   2019-07-15| 10489|     0| 1140612|   0|2017|      4|\n+-------------+------+------+--------+----+----+-------+\nonly showing top 20 rows\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://zeppelin:4040/jobs/job?id\u003d2"
+            },
+            {
+              "jobUrl": "http://zeppelin:4040/jobs/job?id\u003d3"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1678986595496_2081001882",
+      "id": "paragraph_1678986595496_2081001882",
+      "dateCreated": "2023-03-16 17:09:55.496",
+      "dateStarted": "2023-03-19 15:30:38.800",
+      "dateFinished": "2023-03-19 15:31:00.756",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\n\nhadoop fs -put /data/rule.json /",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 16:02:55.237",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": false,
+          "language": "sh",
+          "completionKey": "TAB"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "SLF4J: Class path contains multiple SLF4J bindings.\nSLF4J: Found binding in [jar:file:/usr/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: Found binding in [jar:file:/usr/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]\nSLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.\nSLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]\n2023-03-19 16:02:55,937 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\nput: `/rule.json\u0027: File exists\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "ExitValue: 1"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1679241298369_1355501602",
+      "id": "paragraph_1679241298369_1355501602",
+      "dateCreated": "2023-03-19 15:54:58.369",
+      "dateStarted": "2023-03-19 16:02:55.246",
+      "dateFinished": "2023-03-19 16:02:56.702",
+      "status": "ERROR"
+    },
+    {
+      "text": "%spark\nimport io.circe._\nimport io.circe.generic.auto._\nimport io.circe.parser._\nimport io.circe.syntax._\nimport org.apache.spark.sql.functions._\nimport org.apache.spark.sql.{Column, DataFrame, SparkSession}\n\ncase class Rule(joins: List[Join], variables: List[Variable], parameters: List[Parameter], criterias: List[Criteria], tree: List[TreeNode])\n\ncase class Join(table_left: String, entity_left: String, table_right: String, entity_right: String, `type`: String)\ncase class Variable(name: String, table: String, field: String, `type`: String)\ncase class Parameter(name: String, value: String, `type`: String)\ncase class Criteria(id: Int, parameter: String, operator: String, value: String)\ncase class TreeNode(id: Int, criterias: Option[List[Int]] \u003d None, operator: Option[String] \u003d None, nodes: Option[List[TreeNode]] \u003d None, loss: Option[String] \u003d None)\nobject RiskCalculator {\n  def applyCriteria(df: DataFrame, criteria: Criteria): DataFrame \u003d {\n    val col \u003d df.col(criteria.parameter)\n    val operator \u003d criteria.operator\n    val value \u003d if (criteria.value.startsWith(\"{\")) df.col(criteria.value.stripPrefix(\"{\").stripSuffix(\"}\")) else lit(criteria.value)\n    val condition \u003d operator match {\n      case \"lt\" \u003d\u003e col \u003c value\n      case \"le\" \u003d\u003e col \u003c\u003d value\n      case \"gt\" \u003d\u003e col \u003e value\n      case \"ge\" \u003d\u003e col \u003e\u003d value\n      case \"eq\" \u003d\u003e col \u003d\u003d\u003d value\n      case \"ne\" \u003d\u003e col \u003d!\u003d value\n      case _ \u003d\u003e throw new IllegalArgumentException(s\"Unknown operator: $operator\")\n    }\n    df.filter(condition)\n  }\n\n  def applyTreeNode(df: DataFrame, node: TreeNode, criterias: List[Criteria]): DataFrame \u003d {\n    node.criterias match {\n      case Some(criteriaIds) \u003d\u003e\n        val applicableCriterias \u003d criterias.filter(c \u003d\u003e criteriaIds.contains(c.id))\n        applicableCriterias.foldLeft(df)((df, criteria) \u003d\u003e applyCriteria(df, criteria))\n      case None \u003d\u003e df\n    }\n  }\n  \n   def main(args: Array[String]): Unit \u003d {\n    val spark \u003d SparkSession.builder\n      .appName(\"RiskCalculator\")\n      .master(\"local[*]\")\n      .getOrCreate()\n\n    import spark.implicits._\n\n    // Чтение файла rule.json\n    val ruleJson \u003d scala.io.Source.fromFile(\"rule.json\").mkString\n    val rule \u003d decode[Rule](ruleJson).getOrElse(Rule(List(), List(), List(), List(), List()))\n\n    // Загрузка таблиц из CSV-файлов\n    val df_vsa_nd_nds_r1 \u003d spark.read.format(\"csv\").option(\"header\", \"true\").load(\"/vsa_nd_nds_r1.csv\")\n    val df_vsa_nd_nds_r3 \u003d spark.read.format(\"csv\").option(\"header\", \"true\").load(\"/vsa_nd_nds_r3.csv\")\n\n    // Применение объединений таблиц на основе правил в rule.json\n    val joinedData \u003d rule.joins.foldLeft(df_vsa_nd_nds_r1.alias(\"r1\").join(df_vsa_nd_nds_r3.alias(\"r3\"))) { (df, join) \u003d\u003e\n      df.join(\n        spark.table(join.table_right),\n        col(s\"r1.${join.entity_left}\") \u003d\u003d\u003d col(s\"r3.${join.entity_right}\"),\n        join.`type`\n      )\n    }\n\n    // Обработка данных на основе rule\n    val processedData \u003d rule.tree.foldLeft(joinedData)((df, treeNode) \u003d\u003e applyTreeNode(df, treeNode, rule.criterias))\n\n    // Сохранение результата в response.json\n    processedData.write.json(\"response.json\")\n\n    spark.stop()\n  }\n}",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 16:22:08.143",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "language": "scala",
+          "completionKey": "TAB"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u003cconsole\u003e:22: \u001b[31merror: \u001b[0mobject circe is not a member of package io\n       import io.circe._\n                 ^\n\u003cconsole\u003e:23: \u001b[31merror: \u001b[0mobject circe is not a member of package io\n       import io.circe.generic.auto._\n                 ^\n\u003cconsole\u003e:24: \u001b[31merror: \u001b[0mobject circe is not a member of package io\n       import io.circe.parser._\n                 ^\n\u003cconsole\u003e:25: \u001b[31merror: \u001b[0mobject circe is not a member of package io\n       import io.circe.syntax._\n                 ^\n\u003cconsole\u003e:72: \u001b[31merror: \u001b[0mmethod decode: (value: org.apache.spark.sql.Column, charset: String)org.apache.spark.sql.Column does not take type parameters.\n           val rule \u003d decode[Rule](ruleJson).getOrElse(Rule(List(), List(), List(), List(), List()))\n                            ^\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1679239146956_164160903",
+      "id": "paragraph_1679239146956_164160903",
+      "dateCreated": "2023-03-19 15:19:06.956",
+      "dateStarted": "2023-03-19 16:22:08.152",
+      "dateFinished": "2023-03-19 16:22:08.238",
+      "status": "ERROR"
+    },
+    {
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2023-03-19 15:19:25.290",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1679239165290_1603647834",
+      "id": "paragraph_1679239165290_1603647834",
+      "dateCreated": "2023-03-19 15:19:25.290",
+      "status": "READY"
+    }
+  ],
+  "name": "TestTask",
+  "id": "2HX7DBB8S",
+  "defaultInterpreterGroup": "file",
+  "version": "0.9.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {
+    "isRunning": false
+  }
+}
